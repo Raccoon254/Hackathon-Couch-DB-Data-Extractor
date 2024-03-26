@@ -9,6 +9,15 @@
     "transitions": {}
   },
   {
+    "_id": "336266d8-126a-43ba-beba-d70d6f8b268a-info",
+    "_rev": "3-9098a72a4e96cea6fbf0c8c9e82f0656",
+    "type": "info",
+    "doc_id": "336266d8-126a-43ba-beba-d70d6f8b268a",
+    "initial_replication_date": "2024-03-26T11:21:12.807Z",
+    "latest_replication_date": "2024-03-26T11:21:12.807Z",
+    "transitions": {}
+  },
+  {
     "_id": "3cb883cf-6c70-49c9-a8ce-e0617a022699-info",
     "_rev": "3-33b29aaa9cebbf20c5b765c1236bf6a6",
     "type": "info",
@@ -24,6 +33,15 @@
     "doc_id": "5c3b2c44-6860-496f-91d8-55494f0e7a9f",
     "initial_replication_date": "2024-03-26T09:55:15.481Z",
     "latest_replication_date": "2024-03-26T09:55:15.481Z",
+    "transitions": {}
+  },
+  {
+    "_id": "7849d997-8401-453c-a221-8dbb18362cc9-info",
+    "_rev": "3-04fc0959a5e8b752ec849cf0d0df7fc5",
+    "type": "info",
+    "doc_id": "7849d997-8401-453c-a221-8dbb18362cc9",
+    "initial_replication_date": "2024-03-26T11:21:12.807Z",
+    "latest_replication_date": "2024-03-26T11:21:12.807Z",
     "transitions": {}
   },
   {
@@ -68,6 +86,15 @@
     "doc_id": "d3f40e5b-54c5-48ce-be78-c5053b884d2e",
     "initial_replication_date": "2024-03-26T09:55:15.481Z",
     "latest_replication_date": "2024-03-26T09:55:15.481Z",
+    "transitions": {}
+  },
+  {
+    "_id": "ea46a65c-a374-4403-ac0d-e612525d3571-info",
+    "_rev": "3-29779f6f3ba10fd3332f84313314d5eb",
+    "type": "info",
+    "doc_id": "ea46a65c-a374-4403-ac0d-e612525d3571",
+    "initial_replication_date": "2024-03-26T11:21:56.395Z",
+    "latest_replication_date": "2024-03-26T11:21:56.395Z",
     "transitions": {}
   },
   {

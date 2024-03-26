@@ -31,9 +31,9 @@
   },
   {
     "_id": "connected-user-medic",
-    "_rev": "1-30b6114b6f92202358507d42eef78676",
+    "_rev": "2-fbb5772d7f996287e08e4e8ffb6e3cc4",
     "user": "medic",
-    "timestamp": 1711446763902
+    "timestamp": 1711452041552
   },
   {
     "_id": "upgrade_log:1711446535721:master",

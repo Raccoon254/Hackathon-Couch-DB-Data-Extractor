@@ -41,7 +41,7 @@
   },
   {
     "_id": "updated:medic",
-    "_rev": "36-ff3a03d7a03258ee101a8bd045b76cee"
+    "_rev": "38-adf774bf0a710ddb027bd39eb7f011b5"
   },
   {
     "_id": "updated:medic-audit",
@@ -49,15 +49,15 @@
   },
   {
     "_id": "updated:medic-logs",
-    "_rev": "3-825cb35de44c433bfb2df415563a19de"
+    "_rev": "4-89c1c79a98fc269e474eb64d999a2049"
   },
   {
     "_id": "updated:medic-sentinel",
-    "_rev": "32-bc70b5ad8b4c7e78692b870726cd080a"
+    "_rev": "34-0329daafdeda1333a51659d238fbf6ea"
   },
   {
     "_id": "updated:medic-user-medic-meta",
-    "_rev": "1-967a00dff5e02add41819138abb3284d"
+    "_rev": "2-7051cbe5c8faecd085a3fa619e6e6337"
   },
   {
     "_id": "updated:medic-users-meta",
