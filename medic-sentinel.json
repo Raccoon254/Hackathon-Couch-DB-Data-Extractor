@@ -1,0 +1,694 @@
+[
+  {
+    "_id": "2e6fc729-c153-4fc5-92d3-870c31ea269e-info",
+    "_rev": "3-d8bea261a52cc436068ea31c244b0c34",
+    "type": "info",
+    "doc_id": "2e6fc729-c153-4fc5-92d3-870c31ea269e",
+    "initial_replication_date": "2024-03-26T09:56:01.174Z",
+    "latest_replication_date": "2024-03-26T09:56:01.174Z",
+    "transitions": {}
+  },
+  {
+    "_id": "3cb883cf-6c70-49c9-a8ce-e0617a022699-info",
+    "_rev": "3-33b29aaa9cebbf20c5b765c1236bf6a6",
+    "type": "info",
+    "doc_id": "3cb883cf-6c70-49c9-a8ce-e0617a022699",
+    "initial_replication_date": "2024-03-26T09:56:54.003Z",
+    "latest_replication_date": "2024-03-26T09:56:54.003Z",
+    "transitions": {}
+  },
+  {
+    "_id": "5c3b2c44-6860-496f-91d8-55494f0e7a9f-info",
+    "_rev": "3-9f98e90189416e6dd715b3333787c2a9",
+    "type": "info",
+    "doc_id": "5c3b2c44-6860-496f-91d8-55494f0e7a9f",
+    "initial_replication_date": "2024-03-26T09:55:15.481Z",
+    "latest_replication_date": "2024-03-26T09:55:15.481Z",
+    "transitions": {}
+  },
+  {
+    "_id": "_design/sentinel",
+    "_rev": "1-fc1d8068ff1986142844d9e99d5148dd",
+    "build_info": {
+      "author": "npm on runner",
+      "application": "medic",
+      "build": "4.6.0-alpha.8424776532",
+      "namespace": "medic",
+      "schema_version": 2,
+      "base_version": "4.6.0",
+      "version": "master",
+      "time": "2024-03-25T18:04:51.832Z"
+    },
+    "views": {
+      "outbound_push_tasks": {
+        "map": "function(doc) {\n  if (doc.type === 'task:outbound') {\n    emit();\n  }\n}",
+        "reduce": "_count"
+      }
+    },
+    "version": "4.6.0-alpha.8424776532",
+    "deploy_info": {
+      "user": "",
+      "upgrade_log_id": "upgrade_log:1711446535721:master",
+      "timestamp": 1711446536453
+    }
+  },
+  {
+    "_id": "branding-info",
+    "_rev": "3-00117f31a64b482dd72c6404a363cf43",
+    "type": "info",
+    "doc_id": "branding",
+    "initial_replication_date": "unknown",
+    "latest_replication_date": "2024-03-26T09:52:26.837Z",
+    "transitions": {}
+  },
+  {
+    "_id": "d3f40e5b-54c5-48ce-be78-c5053b884d2e-info",
+    "_rev": "3-acb1cd2bacdffefe6b782b766b7a2d04",
+    "type": "info",
+    "doc_id": "d3f40e5b-54c5-48ce-be78-c5053b884d2e",
+    "initial_replication_date": "2024-03-26T09:55:15.481Z",
+    "latest_replication_date": "2024-03-26T09:55:15.481Z",
+    "transitions": {}
+  },
+  {
+    "_id": "f06af9fe-02d9-4c04-b09e-e5d58a1db903-info",
+    "_rev": "3-f592bcc68e560d1c520dc2838ed1133f",
+    "type": "info",
+    "doc_id": "f06af9fe-02d9-4c04-b09e-e5d58a1db903",
+    "initial_replication_date": "2024-03-26T09:56:54.003Z",
+    "latest_replication_date": "2024-03-26T09:56:54.003Z",
+    "transitions": {}
+  },
+  {
+    "_id": "form:approve_mute_household-info",
+    "_rev": "3-dae9661b57ae17756885b9160f1aa045",
+    "type": "info",
+    "doc_id": "form:approve_mute_household",
+    "initial_replication_date": "2024-03-26T09:52:12.894Z",
+    "latest_replication_date": "2024-03-26T09:52:12.894Z",
+    "transitions": {}
+  },
+  {
+    "_id": "form:approve_mute_person-info",
+    "_rev": "3-e01e3583ec1536847221acad51468d9f",
+    "type": "info",
+    "doc_id": "form:approve_mute_person",
+    "initial_replication_date": "2024-03-26T09:52:12.980Z",
+    "latest_replication_date": "2024-03-26T09:52:12.980Z",
+    "transitions": {}
+  },
+  {
+    "_id": "form:cha_signal_reporting_verification-info",
+    "_rev": "3-93c75301b604ff1e1a833e17aa0a7e30",
+    "type": "info",
+    "doc_id": "form:cha_signal_reporting_verification",
+    "initial_replication_date": "2024-03-26T09:52:13.056Z",
+    "latest_replication_date": "2024-03-26T09:52:13.056Z",
+    "transitions": {}
+  },
+  {
+    "_id": "form:cha_signal_verification-info",
+    "_rev": "3-e357cf840920ab6c534d6266644e4eb9",
+    "type": "info",
+    "doc_id": "form:cha_signal_verification",
+    "initial_replication_date": "2024-03-26T09:52:13.149Z",
+    "latest_replication_date": "2024-03-26T09:52:13.149Z",
+    "transitions": {}
+  },
+  {
+    "_id": "form:cha_supervision_calendar-info",
+    "_rev": "3-9a7543df26814caadf3fae9a085012e4",
+    "type": "info",
+    "doc_id": "form:cha_supervision_calendar",
+    "initial_replication_date": "2024-03-26T09:52:13.260Z",
+    "latest_replication_date": "2024-03-26T09:52:13.260Z",
+    "transitions": {}
+  },
+  {
+    "_id": "form:cha_verbal_autopsy-info",
+    "_rev": "3-2e870a62b91c8cd2384bdba5e25bc081",
+    "type": "info",
+    "doc_id": "form:cha_verbal_autopsy",
+    "initial_replication_date": "2024-03-26T09:52:13.354Z",
+    "latest_replication_date": "2024-03-26T09:52:13.354Z",
+    "transitions": {}
+  },
+  {
+    "_id": "form:chu_supervision-info",
+    "_rev": "3-3f9ba20baa039908164a2dd0640a1c7a",
+    "type": "info",
+    "doc_id": "form:chu_supervision",
+    "initial_replication_date": "2024-03-26T09:52:13.433Z",
+    "latest_replication_date": "2024-03-26T09:52:13.433Z",
+    "transitions": {}
+  },
+  {
+    "_id": "form:chv_signal_reporting-info",
+    "_rev": "3-79b78cfff2b81559d2469fb10ae05065",
+    "type": "info",
+    "doc_id": "form:chv_signal_reporting",
+    "initial_replication_date": "2024-03-26T09:52:13.494Z",
+    "latest_replication_date": "2024-03-26T09:52:13.494Z",
+    "transitions": {}
+  },
+  {
+    "_id": "form:chv_supervision-info",
+    "_rev": "3-612ee93142aa36b7c4884f223968b683",
+    "type": "info",
+    "doc_id": "form:chv_supervision",
+    "initial_replication_date": "2024-03-26T09:52:13.581Z",
+    "latest_replication_date": "2024-03-26T09:52:13.581Z",
+    "transitions": {}
+  },
+  {
+    "_id": "form:commodities_order-info",
+    "_rev": "3-48bb0c76d57125d8a9f6002e64ed2c4d",
+    "type": "info",
+    "doc_id": "form:commodities_order",
+    "initial_replication_date": "2024-03-26T09:52:13.681Z",
+    "latest_replication_date": "2024-03-26T09:52:13.681Z",
+    "transitions": {}
+  },
+  {
+    "_id": "form:commodity_count-info",
+    "_rev": "3-804d386b52dd0c4f1f722e2ed9c547a8",
+    "type": "info",
+    "doc_id": "form:commodity_count",
+    "initial_replication_date": "2024-03-26T09:52:13.784Z",
+    "latest_replication_date": "2024-03-26T09:52:13.784Z",
+    "transitions": {}
+  },
+  {
+    "_id": "form:commodity_discrepancy-info",
+    "_rev": "3-e048557f65ba2712da156e4dc8c8b8a1",
+    "type": "info",
+    "doc_id": "form:commodity_discrepancy",
+    "initial_replication_date": "2024-03-26T09:52:13.902Z",
+    "latest_replication_date": "2024-03-26T09:52:13.902Z",
+    "transitions": {}
+  },
+  {
+    "_id": "form:commodity_received-info",
+    "_rev": "3-770f50c20965eb3bd69b7ba3cc50d34a",
+    "type": "info",
+    "doc_id": "form:commodity_received",
+    "initial_replication_date": "2024-03-26T09:52:14.028Z",
+    "latest_replication_date": "2024-03-26T09:52:14.028Z",
+    "transitions": {}
+  },
+  {
+    "_id": "form:commodity_return-info",
+    "_rev": "3-733dc585daa61e0806857cd261037f9a",
+    "type": "info",
+    "doc_id": "form:commodity_return",
+    "initial_replication_date": "2024-03-26T09:52:14.193Z",
+    "latest_replication_date": "2024-03-26T09:52:14.193Z",
+    "transitions": {}
+  },
+  {
+    "_id": "form:commodity_returned-info",
+    "_rev": "3-d1123091271dbf2ced1be34d904382c4",
+    "type": "info",
+    "doc_id": "form:commodity_returned",
+    "initial_replication_date": "2024-03-26T09:52:14.566Z",
+    "latest_replication_date": "2024-03-26T09:52:14.566Z",
+    "transitions": {}
+  },
+  {
+    "_id": "form:commodity_stockout-info",
+    "_rev": "3-c29dd1ab2822cb63dd2eae7830cbd478",
+    "type": "info",
+    "doc_id": "form:commodity_stockout",
+    "initial_replication_date": "2024-03-26T09:52:14.779Z",
+    "latest_replication_date": "2024-03-26T09:52:14.779Z",
+    "transitions": {}
+  },
+  {
+    "_id": "form:commodity_supply-info",
+    "_rev": "3-717bb3492a46a41bfbc084acc16772fb",
+    "type": "info",
+    "doc_id": "form:commodity_supply",
+    "initial_replication_date": "2024-03-26T09:52:15.037Z",
+    "latest_replication_date": "2024-03-26T09:52:15.037Z",
+    "transitions": {}
+  },
+  {
+    "_id": "form:community_event-info",
+    "_rev": "3-bf97a3e76845df7768aee6a39c570049",
+    "type": "info",
+    "doc_id": "form:community_event",
+    "initial_replication_date": "2024-03-26T09:52:15.384Z",
+    "latest_replication_date": "2024-03-26T09:52:15.384Z",
+    "transitions": {}
+  },
+  {
+    "_id": "form:contact:a_county:create-info",
+    "_rev": "3-fca9082fa7b4a8dd2222e0628456c3ef",
+    "type": "info",
+    "doc_id": "form:contact:a_county:create",
+    "initial_replication_date": "2024-03-26T09:52:18.640Z",
+    "latest_replication_date": "2024-03-26T09:52:18.640Z",
+    "transitions": {}
+  },
+  {
+    "_id": "form:contact:a_county:edit-info",
+    "_rev": "3-06c576a403f23c05b4d00ee5a2197c13",
+    "type": "info",
+    "doc_id": "form:contact:a_county:edit",
+    "initial_replication_date": "2024-03-26T09:52:18.715Z",
+    "latest_replication_date": "2024-03-26T09:52:18.715Z",
+    "transitions": {}
+  },
+  {
+    "_id": "form:contact:b_sub_county:create-info",
+    "_rev": "3-31d69799752d0522dade00fbcd664747",
+    "type": "info",
+    "doc_id": "form:contact:b_sub_county:create",
+    "initial_replication_date": "2024-03-26T09:52:18.786Z",
+    "latest_replication_date": "2024-03-26T09:52:18.786Z",
+    "transitions": {}
+  },
+  {
+    "_id": "form:contact:b_sub_county:edit-info",
+    "_rev": "3-67d76c7d51f45d714a683dc760935264",
+    "type": "info",
+    "doc_id": "form:contact:b_sub_county:edit",
+    "initial_replication_date": "2024-03-26T09:52:18.858Z",
+    "latest_replication_date": "2024-03-26T09:52:18.858Z",
+    "transitions": {}
+  },
+  {
+    "_id": "form:contact:c_community_health_unit:create-info",
+    "_rev": "3-c34a35eaf699430512e5759b521f592f",
+    "type": "info",
+    "doc_id": "form:contact:c_community_health_unit:create",
+    "initial_replication_date": "2024-03-26T09:52:18.927Z",
+    "latest_replication_date": "2024-03-26T09:52:18.927Z",
+    "transitions": {}
+  },
+  {
+    "_id": "form:contact:c_community_health_unit:edit-info",
+    "_rev": "3-2a11a52def159563807ec7618071e61a",
+    "type": "info",
+    "doc_id": "form:contact:c_community_health_unit:edit",
+    "initial_replication_date": "2024-03-26T09:52:19.061Z",
+    "latest_replication_date": "2024-03-26T09:52:19.061Z",
+    "transitions": {}
+  },
+  {
+    "_id": "form:contact:d_community_health_volunteer_area:create-info",
+    "_rev": "3-68b08e95d0ddce79455dc1f99ac0b049",
+    "type": "info",
+    "doc_id": "form:contact:d_community_health_volunteer_area:create",
+    "initial_replication_date": "2024-03-26T09:52:19.139Z",
+    "latest_replication_date": "2024-03-26T09:52:19.139Z",
+    "transitions": {}
+  },
+  {
+    "_id": "form:contact:d_community_health_volunteer_area:edit-info",
+    "_rev": "3-504cdbc8982256b85b5cb38d712babd6",
+    "type": "info",
+    "doc_id": "form:contact:d_community_health_volunteer_area:edit",
+    "initial_replication_date": "2024-03-26T09:52:19.206Z",
+    "latest_replication_date": "2024-03-26T09:52:19.206Z",
+    "transitions": {}
+  },
+  {
+    "_id": "form:contact:e_household:create-info",
+    "_rev": "3-d91172023b913d6fce4a46552f65b3f4",
+    "type": "info",
+    "doc_id": "form:contact:e_household:create",
+    "initial_replication_date": "2024-03-26T09:52:19.328Z",
+    "latest_replication_date": "2024-03-26T09:52:19.328Z",
+    "transitions": {}
+  },
+  {
+    "_id": "form:contact:e_household:edit-info",
+    "_rev": "3-26a24f6406aba4d9a6a8e4116753461a",
+    "type": "info",
+    "doc_id": "form:contact:e_household:edit",
+    "initial_replication_date": "2024-03-26T09:52:19.401Z",
+    "latest_replication_date": "2024-03-26T09:52:19.401Z",
+    "transitions": {}
+  },
+  {
+    "_id": "form:contact:f_client:create-info",
+    "_rev": "3-ef524c68432f4929f32ca767560125d2",
+    "type": "info",
+    "doc_id": "form:contact:f_client:create",
+    "initial_replication_date": "2024-03-26T09:52:19.516Z",
+    "latest_replication_date": "2024-03-26T09:52:19.516Z",
+    "transitions": {}
+  },
+  {
+    "_id": "form:contact:f_client:edit-info",
+    "_rev": "3-9176d806d72e4470da4fdd7f06abd51e",
+    "type": "info",
+    "doc_id": "form:contact:f_client:edit",
+    "initial_replication_date": "2024-03-26T09:52:19.770Z",
+    "latest_replication_date": "2024-03-26T09:52:19.770Z",
+    "transitions": {}
+  },
+  {
+    "_id": "form:contact:person:create-info",
+    "_rev": "3-ebc3a395d4d197f818e728a489a98606",
+    "type": "info",
+    "doc_id": "form:contact:person:create",
+    "initial_replication_date": "unknown",
+    "latest_replication_date": "2024-03-26T09:52:19.847Z",
+    "transitions": {}
+  },
+  {
+    "_id": "form:contact:person:edit-info",
+    "_rev": "3-eecc920c0c2b659e60ae60db359699a5",
+    "type": "info",
+    "doc_id": "form:contact:person:edit",
+    "initial_replication_date": "unknown",
+    "latest_replication_date": "2024-03-26T09:52:19.947Z",
+    "transitions": {}
+  },
+  {
+    "_id": "form:death_report-info",
+    "_rev": "3-ea80d4ffc86fdc9c6426029842a23e21",
+    "type": "info",
+    "doc_id": "form:death_report",
+    "initial_replication_date": "unknown",
+    "latest_replication_date": "2024-03-26T09:52:16.086Z",
+    "transitions": {}
+  },
+  {
+    "_id": "form:death_review-info",
+    "_rev": "3-e336cd6206b6648d724e017ea0b8c102",
+    "type": "info",
+    "doc_id": "form:death_review",
+    "initial_replication_date": "2024-03-26T09:52:16.212Z",
+    "latest_replication_date": "2024-03-26T09:52:16.212Z",
+    "transitions": {}
+  },
+  {
+    "_id": "form:defaulter_follow_up-info",
+    "_rev": "3-9cfdd4a3b16b200c944945f695df039f",
+    "type": "info",
+    "doc_id": "form:defaulter_follow_up",
+    "initial_replication_date": "2024-03-26T09:52:16.349Z",
+    "latest_replication_date": "2024-03-26T09:52:16.349Z",
+    "transitions": {}
+  },
+  {
+    "_id": "form:family_planning-info",
+    "_rev": "3-82f4a347a059ec5ef7ee2c3cc753e7a1",
+    "type": "info",
+    "doc_id": "form:family_planning",
+    "initial_replication_date": "2024-03-26T09:52:16.595Z",
+    "latest_replication_date": "2024-03-26T09:52:16.595Z",
+    "transitions": {}
+  },
+  {
+    "_id": "form:household_member_registration_reminder-info",
+    "_rev": "3-4a2c6a40b19f62ddf8d1d3bf60983f94",
+    "type": "info",
+    "doc_id": "form:household_member_registration_reminder",
+    "initial_replication_date": "2024-03-26T09:52:16.696Z",
+    "latest_replication_date": "2024-03-26T09:52:16.696Z",
+    "transitions": {}
+  },
+  {
+    "_id": "form:immunization_service-info",
+    "_rev": "3-45e63606ddc04228dde7da96c3db15b8",
+    "type": "info",
+    "doc_id": "form:immunization_service",
+    "initial_replication_date": "2024-03-26T09:52:16.837Z",
+    "latest_replication_date": "2024-03-26T09:52:16.837Z",
+    "transitions": {}
+  },
+  {
+    "_id": "form:mute_household-info",
+    "_rev": "3-eb66a1b1cb53c2a4dc09f37749ab3b13",
+    "type": "info",
+    "doc_id": "form:mute_household",
+    "initial_replication_date": "2024-03-26T09:52:17.068Z",
+    "latest_replication_date": "2024-03-26T09:52:17.068Z",
+    "transitions": {}
+  },
+  {
+    "_id": "form:mute_person-info",
+    "_rev": "3-ee8576778de07eefd07414447340b50f",
+    "type": "info",
+    "doc_id": "form:mute_person",
+    "initial_replication_date": "2024-03-26T09:52:17.151Z",
+    "latest_replication_date": "2024-03-26T09:52:17.151Z",
+    "transitions": {}
+  },
+  {
+    "_id": "form:over_five_assessment-info",
+    "_rev": "3-72269b563521dd59bf429b73c57ce4cf",
+    "type": "info",
+    "doc_id": "form:over_five_assessment",
+    "initial_replication_date": "2024-03-26T09:52:17.297Z",
+    "latest_replication_date": "2024-03-26T09:52:17.297Z",
+    "transitions": {}
+  },
+  {
+    "_id": "form:patient_details_reminder-info",
+    "_rev": "3-0b4d75ff2bb740f08ebe1980699ae2be",
+    "type": "info",
+    "doc_id": "form:patient_details_reminder",
+    "initial_replication_date": "2024-03-26T09:52:17.481Z",
+    "latest_replication_date": "2024-03-26T09:52:17.481Z",
+    "transitions": {}
+  },
+  {
+    "_id": "form:postnatal_care_service-info",
+    "_rev": "3-b2fd46fe0ef0bc79009e9e3684f3f5dc",
+    "type": "info",
+    "doc_id": "form:postnatal_care_service",
+    "initial_replication_date": "2024-03-26T09:52:17.594Z",
+    "latest_replication_date": "2024-03-26T09:52:17.594Z",
+    "transitions": {}
+  },
+  {
+    "_id": "form:postnatal_care_service_newborn-info",
+    "_rev": "3-0c527aff684334045c2201e4d9addb01",
+    "type": "info",
+    "doc_id": "form:postnatal_care_service_newborn",
+    "initial_replication_date": "2024-03-26T09:52:17.662Z",
+    "latest_replication_date": "2024-03-26T09:52:17.662Z",
+    "transitions": {}
+  },
+  {
+    "_id": "form:pregnancy_home_visit-info",
+    "_rev": "3-2a5d1b72f975f2bfb56c55bc2453429c",
+    "type": "info",
+    "doc_id": "form:pregnancy_home_visit",
+    "initial_replication_date": "unknown",
+    "latest_replication_date": "2024-03-26T09:52:17.747Z",
+    "transitions": {}
+  },
+  {
+    "_id": "form:referral_follow_up-info",
+    "_rev": "3-7839e776a47fb01db054b6ec259c0b62",
+    "type": "info",
+    "doc_id": "form:referral_follow_up",
+    "initial_replication_date": "2024-03-26T09:52:17.902Z",
+    "latest_replication_date": "2024-03-26T09:52:17.902Z",
+    "transitions": {}
+  },
+  {
+    "_id": "form:sgbv-info",
+    "_rev": "3-a14bc8231bfc3de1e13ea0087b07bbca",
+    "type": "info",
+    "doc_id": "form:sgbv",
+    "initial_replication_date": "2024-03-26T09:52:17.993Z",
+    "latest_replication_date": "2024-03-26T09:52:17.993Z",
+    "transitions": {}
+  },
+  {
+    "_id": "form:socio_economic_survey-info",
+    "_rev": "3-9262096749d0166fe426107398a090c4",
+    "type": "info",
+    "doc_id": "form:socio_economic_survey",
+    "initial_replication_date": "2024-03-26T09:52:18.103Z",
+    "latest_replication_date": "2024-03-26T09:52:18.103Z",
+    "transitions": {}
+  },
+  {
+    "_id": "form:socio_economic_survey_person-info",
+    "_rev": "3-5326fe98352465f9c2c33c93d1c890b9",
+    "type": "info",
+    "doc_id": "form:socio_economic_survey_person",
+    "initial_replication_date": "2024-03-26T09:52:18.200Z",
+    "latest_replication_date": "2024-03-26T09:52:18.200Z",
+    "transitions": {}
+  },
+  {
+    "_id": "form:treatment_follow_up-info",
+    "_rev": "3-00b62e7ec51886b8b15cdf6befc85420",
+    "type": "info",
+    "doc_id": "form:treatment_follow_up",
+    "initial_replication_date": "2024-03-26T09:52:18.267Z",
+    "latest_replication_date": "2024-03-26T09:52:18.267Z",
+    "transitions": {}
+  },
+  {
+    "_id": "form:u5_assessment-info",
+    "_rev": "3-911321d91cbfb90431aa7be5e7bb471e",
+    "type": "info",
+    "doc_id": "form:u5_assessment",
+    "initial_replication_date": "2024-03-26T09:52:18.372Z",
+    "latest_replication_date": "2024-03-26T09:52:18.372Z",
+    "transitions": {}
+  },
+  {
+    "_id": "form:unmute_household-info",
+    "_rev": "3-f0c6d98cf62112f49ce3b9afb830bdd4",
+    "type": "info",
+    "doc_id": "form:unmute_household",
+    "initial_replication_date": "2024-03-26T09:52:18.422Z",
+    "latest_replication_date": "2024-03-26T09:52:18.422Z",
+    "transitions": {}
+  },
+  {
+    "_id": "form:unmute_person-info",
+    "_rev": "3-6dfced5b1d733eed8bbe28c0ae4f519c",
+    "type": "info",
+    "doc_id": "form:unmute_person",
+    "initial_replication_date": "2024-03-26T09:52:18.485Z",
+    "latest_replication_date": "2024-03-26T09:52:18.485Z",
+    "transitions": {}
+  },
+  {
+    "_id": "form:wash-info",
+    "_rev": "3-fae16aa862bddd67b55ae913a34b6004",
+    "type": "info",
+    "doc_id": "form:wash",
+    "initial_replication_date": "2024-03-26T09:52:18.550Z",
+    "latest_replication_date": "2024-03-26T09:52:18.550Z",
+    "transitions": {}
+  },
+  {
+    "_id": "messages-bm-info",
+    "_rev": "2-3d2fc47ed2569adf3f63ddfc9e5cfcec",
+    "type": "info",
+    "doc_id": "messages-bm",
+    "initial_replication_date": "unknown",
+    "latest_replication_date": "unknown",
+    "transitions": {}
+  },
+  {
+    "_id": "messages-en-info",
+    "_rev": "3-4b3e3d5ceeb6d5d5811971d68b980c9a",
+    "type": "info",
+    "doc_id": "messages-en",
+    "initial_replication_date": "unknown",
+    "latest_replication_date": "2024-03-26T09:52:28.259Z",
+    "transitions": {}
+  },
+  {
+    "_id": "messages-es-info",
+    "_rev": "2-2c21cabb7194455e1440c8097ca78437",
+    "type": "info",
+    "doc_id": "messages-es",
+    "initial_replication_date": "unknown",
+    "latest_replication_date": "unknown",
+    "transitions": {}
+  },
+  {
+    "_id": "messages-fr-info",
+    "_rev": "2-8e97ec97e56c73d8b83d299b2aabcd02",
+    "type": "info",
+    "doc_id": "messages-fr",
+    "initial_replication_date": "unknown",
+    "latest_replication_date": "unknown",
+    "transitions": {}
+  },
+  {
+    "_id": "messages-hi-info",
+    "_rev": "2-06763bf6a8e0df7e2bae1e2d7693ff19",
+    "type": "info",
+    "doc_id": "messages-hi",
+    "initial_replication_date": "unknown",
+    "latest_replication_date": "unknown",
+    "transitions": {}
+  },
+  {
+    "_id": "messages-id-info",
+    "_rev": "2-6ca72dac81b2868ebc520b4299a35928",
+    "type": "info",
+    "doc_id": "messages-id",
+    "initial_replication_date": "unknown",
+    "latest_replication_date": "unknown",
+    "transitions": {}
+  },
+  {
+    "_id": "messages-ne-info",
+    "_rev": "2-ab7f554ef3b283b88f4825fad1d3a35d",
+    "type": "info",
+    "doc_id": "messages-ne",
+    "initial_replication_date": "unknown",
+    "latest_replication_date": "unknown",
+    "transitions": {}
+  },
+  {
+    "_id": "messages-sw-info",
+    "_rev": "2-344ebc3149c1b188d2246da9b9d0063c",
+    "type": "info",
+    "doc_id": "messages-sw",
+    "initial_replication_date": "unknown",
+    "latest_replication_date": "unknown",
+    "transitions": {}
+  },
+  {
+    "_id": "migration-log-info",
+    "_rev": "2-1e037caed2941cdb84a81f7e9e4a6037",
+    "type": "info",
+    "doc_id": "migration-log",
+    "initial_replication_date": "unknown",
+    "latest_replication_date": "unknown",
+    "transitions": {}
+  },
+  {
+    "_id": "org.couchdb.user:medic-info",
+    "_rev": "2-034bca8ff1aefdb4d7283f6febf0c363",
+    "type": "info",
+    "doc_id": "org.couchdb.user:medic",
+    "initial_replication_date": "unknown",
+    "latest_replication_date": "unknown",
+    "transitions": {}
+  },
+  {
+    "_id": "privacy-policies-info",
+    "_rev": "3-2cb9309b39cf16a77c5f7e5bac934823",
+    "type": "info",
+    "doc_id": "privacy-policies",
+    "initial_replication_date": "2024-03-26T09:52:28.410Z",
+    "latest_replication_date": "2024-03-26T09:52:28.410Z",
+    "transitions": {}
+  },
+  {
+    "_id": "resources-info",
+    "_rev": "3-84e72f6b3bf8d0ee1f6ea29aeafb3112",
+    "type": "info",
+    "doc_id": "resources",
+    "initial_replication_date": "unknown",
+    "latest_replication_date": "2024-03-26T09:52:25.022Z",
+    "transitions": {}
+  },
+  {
+    "_id": "service-worker-meta-info",
+    "_rev": "2-0edb661301156384f5efdf0f344b8990",
+    "type": "info",
+    "doc_id": "service-worker-meta",
+    "initial_replication_date": "unknown",
+    "latest_replication_date": "unknown",
+    "transitions": {}
+  },
+  {
+    "_id": "settings-info",
+    "_rev": "2-7ba992eec3dc5db2344b60ff48e62195",
+    "type": "info",
+    "doc_id": "settings",
+    "initial_replication_date": "unknown",
+    "latest_replication_date": "unknown",
+    "transitions": {}
+  }
+]

@@ -1,0 +1,66 @@
+[
+  {
+    "_id": "created:medic",
+    "_rev": "1-967a00dff5e02add41819138abb3284d"
+  },
+  {
+    "_id": "created:medic-audit",
+    "_rev": "1-967a00dff5e02add41819138abb3284d"
+  },
+  {
+    "_id": "created:medic-logs",
+    "_rev": "1-967a00dff5e02add41819138abb3284d"
+  },
+  {
+    "_id": "created:medic-purged-cache",
+    "_rev": "1-967a00dff5e02add41819138abb3284d"
+  },
+  {
+    "_id": "created:medic-sentinel",
+    "_rev": "1-967a00dff5e02add41819138abb3284d"
+  },
+  {
+    "_id": "created:medic-user-medic-meta",
+    "_rev": "1-967a00dff5e02add41819138abb3284d"
+  },
+  {
+    "_id": "created:medic-users-meta",
+    "_rev": "1-967a00dff5e02add41819138abb3284d"
+  },
+  {
+    "_id": "created:medic-vault",
+    "_rev": "1-967a00dff5e02add41819138abb3284d"
+  },
+  {
+    "_id": "updated:_dbs",
+    "_rev": "6-460637e73a6288cb24d532bf91f32969"
+  },
+  {
+    "_id": "updated:_users",
+    "_rev": "2-7051cbe5c8faecd085a3fa619e6e6337"
+  },
+  {
+    "_id": "updated:medic",
+    "_rev": "36-ff3a03d7a03258ee101a8bd045b76cee"
+  },
+  {
+    "_id": "updated:medic-audit",
+    "_rev": "2-7051cbe5c8faecd085a3fa619e6e6337"
+  },
+  {
+    "_id": "updated:medic-logs",
+    "_rev": "3-825cb35de44c433bfb2df415563a19de"
+  },
+  {
+    "_id": "updated:medic-sentinel",
+    "_rev": "32-bc70b5ad8b4c7e78692b870726cd080a"
+  },
+  {
+    "_id": "updated:medic-user-medic-meta",
+    "_rev": "1-967a00dff5e02add41819138abb3284d"
+  },
+  {
+    "_id": "updated:medic-users-meta",
+    "_rev": "2-7051cbe5c8faecd085a3fa619e6e6337"
+  }
+]

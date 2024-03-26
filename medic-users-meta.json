@@ -1,0 +1,32 @@
+[
+  {
+    "_id": "_design/users-meta",
+    "_rev": "1-3b9f81dd86a86a077c8e212d4ecaa8a6",
+    "build_info": {
+      "author": "npm on runner",
+      "application": "medic",
+      "build": "4.6.0-alpha.8424776532",
+      "base_version": "4.6.0",
+      "time": "2024-03-25T18:04:51.832Z",
+      "namespace": "medic",
+      "schema_version": 2,
+      "version": "master"
+    },
+    "version": "4.6.0-alpha.8424776532",
+    "views": {
+      "device_by_user": {
+        "map": "function(doc) {\n  if (\n    doc.type === 'telemetry' &&\n    doc.metadata &&\n    doc.metadata.user &&\n    doc.metadata.deviceId &&\n    doc.metadata.year &&\n    doc.metadata.month &&\n    doc.metadata.day\n  ) {\n    const pad = number => number.toString().padStart(2, '0');\n    emit([doc.metadata.user, doc.metadata.deviceId], {\n      date: `${doc.metadata.year}-${pad(doc.metadata.month)}-${pad(doc.metadata.day)}`,\n      id: doc._id,\n      device: {\n        userAgent: doc.device && doc.device.userAgent,\n        versions: {\n          apk: doc.device && doc.device.deviceInfo && doc.device.deviceInfo.app && doc.device.deviceInfo.app.version,\n          android: doc.device\n            && doc.device.deviceInfo\n            && doc.device.deviceInfo.software\n            && doc.device.deviceInfo.software.androidVersion,\n          cht: doc.metadata.versions && doc.metadata.versions.app,\n          settings: doc.metadata.versions && doc.metadata.versions.settings,\n        },\n      },\n    });\n  }\n}",
+        "reduce": "function (keys, values) {\n  let latest = { date: '1970-01-01' };\n  values.forEach(function (value) {\n    if (value.date > latest.date) {\n      latest = value;\n    }\n  });\n  return latest;\n}"
+      },
+      "feedback_by_date": {
+        "map": "function(doc) {\n  if (doc.type === 'feedback') {\n    emit(doc.meta.time);\n  }\n}",
+        "reduce": "_count"
+      }
+    },
+    "deploy_info": {
+      "user": "",
+      "upgrade_log_id": "upgrade_log:1711446535721:master",
+      "timestamp": 1711446536453
+    }
+  }
+]

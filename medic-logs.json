@@ -1,0 +1,87 @@
+[
+  {
+    "_id": "_design/logs",
+    "_rev": "1-8900a18b0baa638a95d81a1fca9dde60",
+    "build_info": {
+      "base_version": "4.6.0",
+      "build": "4.6.0-alpha.8424776532",
+      "namespace": "medic",
+      "application": "medic",
+      "schema_version": 2,
+      "time": "2024-03-25T18:04:51.832Z",
+      "author": "npm on runner",
+      "version": "master"
+    },
+    "version": "4.6.0-alpha.8424776532",
+    "views": {
+      "connected_users": {
+        "reduce": "_count",
+        "map": "function(doc) {\n  if (doc._id.indexOf('connected-user-') === 0) {\n    emit(doc.timestamp);\n  }\n}"
+      },
+      "replication_limit": {
+        "reduce": "_count",
+        "map": "function(doc) {\n  var DOC_IDS_WARN_LIMIT = 10000;\n\n  if (doc.count > DOC_IDS_WARN_LIMIT) {\n    emit(doc.user);\n  }\n}"
+      }
+    },
+    "deploy_info": {
+      "user": "",
+      "upgrade_log_id": "upgrade_log:1711446535721:master",
+      "timestamp": 1711446536453
+    }
+  },
+  {
+    "_id": "connected-user-medic",
+    "_rev": "1-30b6114b6f92202358507d42eef78676",
+    "user": "medic",
+    "timestamp": 1711446763902
+  },
+  {
+    "_id": "upgrade_log:1711446535721:master",
+    "_rev": "7-1f051eebff0d094985b303170c5e456b",
+    "user": "",
+    "action": "install",
+    "to": {
+      "application": "medic",
+      "base_version": "4.6.0",
+      "namespace": "medic",
+      "author": "npm on runner",
+      "build": "4.6.0-alpha.8424776532",
+      "schema_version": 2,
+      "version": "master",
+      "time": "2024-03-25T18:04:51.832Z"
+    },
+    "start_date": 1711446535721,
+    "state_history": [
+      {
+        "state": "initiated",
+        "date": 1711446535721
+      },
+      {
+        "state": "staged",
+        "date": 1711446535859
+      },
+      {
+        "state": "indexing",
+        "date": 1711446535895
+      },
+      {
+        "state": "indexed",
+        "date": 1711446536437
+      },
+      {
+        "state": "complete",
+        "date": 1711446536444
+      },
+      {
+        "state": "finalizing",
+        "date": 1711446536450
+      },
+      {
+        "state": "finalized",
+        "date": 1711446536663
+      }
+    ],
+    "state": "finalized",
+    "updated_date": 1711446536663
+  }
+]
