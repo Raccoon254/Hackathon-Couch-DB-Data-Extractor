@@ -7,10 +7,14 @@ const nano = require('nano')({
     }
   }
 });
+
 const fs = require('fs');
 const path = require('path');
 const express = require('express');
+const cors = require('cors');
 const app = express();
+
+app.use(cors({ origin: 'http://localhost:5173' }));
 
 //create a new dir called data
 if (!fs.existsSync('data')) {
@@ -23,19 +27,44 @@ process.chdir('data');
 const fetchAndStoreDbDocuments = async (dbName) => {
   const db = nano.use(dbName);
   const { rows } = await db.list({ include_docs: true });
-  const docs = rows.map(row => row.doc);
 
-  // Store documents in a file as JSON in the current working directory
-  const filePath = path.join(process.cwd(), `${dbName}.json`);
-  fs.writeFileSync(filePath, JSON.stringify(docs, null, 2));
-  console.log(`Stored ${docs.length} documents from ${dbName} in ${filePath}`);
+  rows.forEach(row => {
+    const doc = row.doc;
+    const numKeys = Object.keys(doc).length;
+
+    // Define folder path based on number of key-value pairs
+    const folderPath = path.join(process.cwd(), dbName, `${numKeys}-key-value-pairs`);
+    if (!fs.existsSync(folderPath)) {
+      fs.mkdirSync(folderPath, { recursive: true });
+    }
+
+    // Define file path to store the document JSON
+    const filePath = path.join(folderPath, `${doc._id}.json`);
+
+    // Create directory for each document's path before writing the file
+    const fileDir = path.dirname(filePath);
+    if (!fs.existsSync(fileDir)) {
+      fs.mkdirSync(fileDir, { recursive: true });
+    }
+
+    fs.writeFileSync(filePath, JSON.stringify(doc, null, 2));
+    console.log(`Stored document ${doc._id} in ${filePath}`);
+  });
+
+  console.log(`Finished processing database: ${dbName}`);
 };
 
 const getAllDatabasesAndDocuments = async () => {
   try {
     const dbs = await nano.db.list();
     for (const dbName of dbs) {
-      await fetchAndStoreDbDocuments(dbName);
+      //if the db name does not start with medic, skip it
+        if (dbName ==='medic') {
+          console.log(`Processing database: ${dbName}`);
+          await fetchAndStoreDbDocuments(dbName);
+        }else {
+          console.log(`Skipping database: ${dbName}`);
+        }
     }
   } catch (error) {
     console.error('Error:', error);
@@ -52,11 +81,12 @@ getAllDatabasesAndDocuments().then(() => {
 
   for (const dbName of dbs) {
     const filePath = path.join(process.cwd(), `${dbName}.json`);
-    const docs = JSON.parse(fs.readFileSync(filePath, 'utf8'));
+    const data = JSON.parse(fs.readFileSync(filePath, 'utf8'));
 
     app.get(`/api/${dbName}`, (req, res) => {
-      res.json(docs);
+      res.json(data); // Send the data as-is
     });
+
   }
 
   // Start the server
