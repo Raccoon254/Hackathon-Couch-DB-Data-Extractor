@@ -11,6 +11,7 @@ const nano = require('nano')({
 const fs = require('fs');
 const path = require('path');
 const express = require('express');
+const cron = require('node-cron');
 const cors = require('cors');
 const app = express();
 const {createTableIfNotExists, insertDocument} = require('./databaseMapper');
@@ -110,6 +111,7 @@ getAllDatabasesAndDocuments().then(() => {
                 });
             });
         });
+
         console.log("Merged data: ", mergedData);
         res.json(mergedData);
     });
@@ -119,3 +121,12 @@ getAllDatabasesAndDocuments().then(() => {
         console.log(`Server running on port ${port}`);
     });
 });
+
+const job = cron.schedule('* * * * *', async () => {
+    await getAllDatabasesAndDocuments();
+    console.log('Cron job ran successfully.');
+});
+
+job.start(); // Start the cron job
+
+module.exports = app;
