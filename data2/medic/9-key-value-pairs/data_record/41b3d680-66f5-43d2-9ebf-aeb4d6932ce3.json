@@ -1,0 +1,35 @@
+{
+  "_id": "41b3d680-66f5-43d2-9ebf-aeb4d6932ce3",
+  "_rev": "1-8e9f3699d1bd805871a704fe5c709b65",
+  "errors": [],
+  "form": null,
+  "reported_date": 1711525130119,
+  "tasks": [
+    {
+      "messages": [
+        {
+          "sent_by": "medic",
+          "to": "+254758471320",
+          "contact": {
+            "_id": "1e7b9b60-852e-41e7-a433-30e3ad5f18c5",
+            "parent": {
+              "_id": "1bcb7748-a0fa-4372-80d6-133d7d7f9e4e"
+            }
+          },
+          "message": "Hello",
+          "uuid": "2232e596-80a0-4547-839f-9cdb2968fbc8"
+        }
+      ],
+      "state_history": [
+        {
+          "state": "pending",
+          "timestamp": "2024-03-27T07:38:50.120Z"
+        }
+      ],
+      "state": "pending"
+    }
+  ],
+  "kujua_message": true,
+  "type": "data_record",
+  "sent_by": "medic"
+}

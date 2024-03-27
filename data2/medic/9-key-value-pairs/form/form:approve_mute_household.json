@@ -1,0 +1,39 @@
+{
+  "_id": "form:approve_mute_household",
+  "_rev": "2-c4794c41a72bab2050d07ce52150c86b",
+  "type": "form",
+  "internalId": "approve_mute_household",
+  "xmlVersion": {
+    "time": 1711522114240,
+    "sha256": "781f7fc1bd21f9429eba0acd568bb6dfdb3fc47a4efe2b151821c76507cf4ae4"
+  },
+  "title": "Approve Mute Household",
+  "context": {
+    "person": false,
+    "place": false
+  },
+  "icon": "icon-mute",
+  "_attachments": {
+    "xml": {
+      "content_type": "application/xml",
+      "revpos": 2,
+      "digest": "md5-4M7KMEWPIQ20E3/Cy1f+nA==",
+      "length": 11417,
+      "stub": true
+    },
+    "form.html": {
+      "content_type": "text/html",
+      "revpos": 2,
+      "digest": "md5-bE8x8CGEHssY5CPrzkfa4Q==",
+      "length": 9897,
+      "stub": true
+    },
+    "model.xml": {
+      "content_type": "text/xml",
+      "revpos": 2,
+      "digest": "md5-2wcEe9tM2WoER6VmZGE9EA==",
+      "length": 2590,
+      "stub": true
+    }
+  }
+}

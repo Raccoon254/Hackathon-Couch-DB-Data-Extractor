@@ -1,0 +1,341 @@
+{
+  "_id": "resources",
+  "_rev": "3-29d66c8acc1b58739d3a88d6a51298dd",
+  "resources": {
+    "icon-county": "icon-places-MOH.svg",
+    "icon-sub-county": "icon-places-MOH.svg",
+    "icon-community-health-unit": "icon-places-community.svg",
+    "icon-community-helth-unit-dark": "icon-places-cu.svg",
+    "icon-community-health-volunteer-area": "icon-places-chv-area.svg",
+    "icon-household": "icon-household.svg",
+    "icon-person": "icon-person.svg",
+    "icon-wash-service": "icon-misc-hand-wash.svg",
+    "icon-pregnancy-home-visit-service": "icon-people-woman-pregnant.svg",
+    "icon-family-planning-service": "icon-family-planning.svg",
+    "icon-postnatal-care-service": "icon-people-woman-baby-crop.svg",
+    "icon-delivery": "icon-delivery.svg",
+    "icon-immunization-service": "icon-people-baby.svg",
+    "icon-assessment-service": "icon-followup-general.svg",
+    "icon-death": "icon-death-general.svg",
+    "icon-follow-up": "icon-followup-general.svg",
+    "icon-signal": "icon-healthcare-diagnosis.svg",
+    "icon-commodity": "icon-healthcare-medicine.svg",
+    "icon-mute": "icon-messages-off.svg",
+    "icon-unmute": "icon-messages-on.svg",
+    "icon-anc-danger-signs": "icon-ANC-danger-sign.svg",
+    "icon-child-growth": "icon-child-growth.svg",
+    "icon-warning": "icon-healthcare-warning.svg",
+    "icon-iccm-danger-signs": "icon-ICCM-danger-sign.svg",
+    "icon-baby": "icon-people-baby.svg",
+    "icon-child": "icon-people-child.svg",
+    "icon-baby-danger-signs": "icon-PNC-baby-danger-sign.svg",
+    "icon-pnc-danger-signs": "icon-PNC-danger-sign.svg",
+    "icon-man": "icon-people-man.svg",
+    "icon-woman": "icon-people-woman.svg",
+    "icon-death-coffin": "icon-death-coffin.svg",
+    "icon-family-planning": "icon-family-planning.svg",
+    "icon-healthcare": "icon-healthcare-generic-2.svg",
+    "icon-healthcare-immunization": "icon-healthcare-immunization.svg",
+    "icon-iccm-immunization": "ICCM-immunization.svg",
+    "icon-disease-malaria": "icon-disease-malaria.svg",
+    "icon-healthcare-assessment": "icon-healthcare-assessment.svg",
+    "icon-disease-pneumonia": "icon-disease-pneumonia.svg",
+    "icon-condition-diarrhea": "icon-condition-diarrhea.svg",
+    "icon-child-nutrition": "icon-child-nutrition.svg",
+    "icon-healthcare-mrdt": "icon-healthcare-mrdt.svg",
+    "icon-signal-reporting": "icon-signal-reporting.png",
+    "icon-signal-verification": "icon-signal-verification.png",
+    "icon-form-general": "icon-followup-general.svg",
+    "icon-service-rating": "icon-service-rating.svg",
+    "icon-cash-interest": "icon-cash-interest.svg"
+  },
+  "_attachments": {
+    "ICCM-immunization.svg": {
+      "content_type": "image/svg+xml",
+      "revpos": 3,
+      "digest": "md5-T0DM/YGetlvxMy4aCLoWzQ==",
+      "length": 5921,
+      "stub": true
+    },
+    "icon-ANC-danger-sign.svg": {
+      "content_type": "image/svg+xml",
+      "revpos": 3,
+      "digest": "md5-41CjsYB+z0yKlvtw+wk1Bg==",
+      "length": 1035,
+      "stub": true
+    },
+    "icon-ICCM-danger-sign.svg": {
+      "content_type": "image/svg+xml",
+      "revpos": 3,
+      "digest": "md5-2NxWNY0QjAogIfsJ1nmAOQ==",
+      "length": 1090,
+      "stub": true
+    },
+    "icon-PNC-baby-danger-sign.svg": {
+      "content_type": "image/svg+xml",
+      "revpos": 3,
+      "digest": "md5-FYcEAKYhCoTJy4P1Fb58Ow==",
+      "length": 3684,
+      "stub": true
+    },
+    "icon-PNC-danger-sign.svg": {
+      "content_type": "image/svg+xml",
+      "revpos": 3,
+      "digest": "md5-ps2EUH9p+3+fGdQA75sdMg==",
+      "length": 1079,
+      "stub": true
+    },
+    "icon-cash-interest.svg": {
+      "content_type": "image/svg+xml",
+      "revpos": 3,
+      "digest": "md5-eETE9sKZofk4Y0avz9wHLA==",
+      "length": 2493,
+      "stub": true
+    },
+    "icon-child-growth.svg": {
+      "content_type": "image/svg+xml",
+      "revpos": 3,
+      "digest": "md5-2F9pCI3/VErwJ4kuYpVMOQ==",
+      "length": 1592,
+      "stub": true
+    },
+    "icon-child-nutrition.svg": {
+      "content_type": "image/svg+xml",
+      "revpos": 3,
+      "digest": "md5-kWCES3dFSmzJql94QSWGiQ==",
+      "length": 1382,
+      "stub": true
+    },
+    "icon-condition-diarrhea.svg": {
+      "content_type": "image/svg+xml",
+      "revpos": 3,
+      "digest": "md5-w7uvHOuhiUk+SVlqfuqezg==",
+      "length": 1050,
+      "stub": true
+    },
+    "icon-death-coffin.svg": {
+      "content_type": "image/svg+xml",
+      "revpos": 3,
+      "digest": "md5-DP95z1u64aZf1yGp05pBFg==",
+      "length": 241,
+      "stub": true
+    },
+    "icon-death-general.svg": {
+      "content_type": "image/svg+xml",
+      "revpos": 3,
+      "digest": "md5-Y/oDHLxua62KY1TSTE8o0A==",
+      "length": 435,
+      "stub": true
+    },
+    "icon-delivery.svg": {
+      "content_type": "image/svg+xml",
+      "revpos": 3,
+      "digest": "md5-HSdS0PMgWAA8wNJ4215PWw==",
+      "length": 1345,
+      "stub": true
+    },
+    "icon-disease-malaria.svg": {
+      "content_type": "image/svg+xml",
+      "revpos": 3,
+      "digest": "md5-nPcVYj7DrXHLUthUTGeybg==",
+      "length": 1221,
+      "stub": true
+    },
+    "icon-disease-pneumonia.svg": {
+      "content_type": "image/svg+xml",
+      "revpos": 3,
+      "digest": "md5-v+q7LTzTaDZcBfPL8ik9QA==",
+      "length": 1485,
+      "stub": true
+    },
+    "icon-family-planning.svg": {
+      "content_type": "image/svg+xml",
+      "revpos": 3,
+      "digest": "md5-Hq8jlUvBbwTB8c1Lsb3Cgw==",
+      "length": 1922,
+      "stub": true
+    },
+    "icon-followup-general.svg": {
+      "content_type": "image/svg+xml",
+      "revpos": 3,
+      "digest": "md5-NSTesfmiRs8+oAV/iz13yA==",
+      "length": 1256,
+      "stub": true
+    },
+    "icon-healthcare-assessment.svg": {
+      "content_type": "image/svg+xml",
+      "revpos": 3,
+      "digest": "md5-bBPWevUvk3R//swKXmu/TA==",
+      "length": 1014,
+      "stub": true
+    },
+    "icon-healthcare-diagnosis.svg": {
+      "content_type": "image/svg+xml",
+      "revpos": 3,
+      "digest": "md5-8D9vCGzp3c2nciiY8AWV0w==",
+      "length": 740,
+      "stub": true
+    },
+    "icon-healthcare-generic-2.svg": {
+      "content_type": "image/svg+xml",
+      "revpos": 3,
+      "digest": "md5-pALacMpVpQukO8k0Vap61Q==",
+      "length": 252,
+      "stub": true
+    },
+    "icon-healthcare-immunization.svg": {
+      "content_type": "image/svg+xml",
+      "revpos": 3,
+      "digest": "md5-6ThWRW4Vbt4nKXGqJuGlag==",
+      "length": 900,
+      "stub": true
+    },
+    "icon-healthcare-medicine.svg": {
+      "content_type": "image/svg+xml",
+      "revpos": 3,
+      "digest": "md5-ZbY/6JK2KnBZtE4pEPP2xA==",
+      "length": 1212,
+      "stub": true
+    },
+    "icon-healthcare-mrdt.svg": {
+      "content_type": "image/svg+xml",
+      "revpos": 3,
+      "digest": "md5-oyfeO8H6H+T6bQX8KhxJFQ==",
+      "length": 2518,
+      "stub": true
+    },
+    "icon-healthcare-warning.svg": {
+      "content_type": "image/svg+xml",
+      "revpos": 3,
+      "digest": "md5-wFVtHPSaL/zgOoYWIoF+8Q==",
+      "length": 473,
+      "stub": true
+    },
+    "icon-household.svg": {
+      "content_type": "image/svg+xml",
+      "revpos": 3,
+      "digest": "md5-QzbfuLYUNcnQSNX/dNP6pA==",
+      "length": 1568,
+      "stub": true
+    },
+    "icon-messages-off.svg": {
+      "content_type": "image/svg+xml",
+      "revpos": 3,
+      "digest": "md5-p7A/589TKaPXtpjU5tT6KA==",
+      "length": 530,
+      "stub": true
+    },
+    "icon-messages-on.svg": {
+      "content_type": "image/svg+xml",
+      "revpos": 3,
+      "digest": "md5-WIdZssxIDSUGm0GGSagu6A==",
+      "length": 309,
+      "stub": true
+    },
+    "icon-misc-hand-wash.svg": {
+      "content_type": "image/svg+xml",
+      "revpos": 3,
+      "digest": "md5-xMyph55s9T9NhGOej2HQbQ==",
+      "length": 3686,
+      "stub": true
+    },
+    "icon-people-baby.svg": {
+      "content_type": "image/svg+xml",
+      "revpos": 3,
+      "digest": "md5-bhkiSmvVY7J2Sjdk/elgMg==",
+      "length": 794,
+      "stub": true
+    },
+    "icon-people-child.svg": {
+      "content_type": "image/svg+xml",
+      "revpos": 3,
+      "digest": "md5-Y39IhvLRlBN5UxdxdlHISQ==",
+      "length": 638,
+      "stub": true
+    },
+    "icon-people-man.svg": {
+      "content_type": "image/svg+xml",
+      "revpos": 3,
+      "digest": "md5-oAvXkDkje5CkGGaidHq9CQ==",
+      "length": 648,
+      "stub": true
+    },
+    "icon-people-woman-baby-crop.svg": {
+      "content_type": "image/svg+xml",
+      "revpos": 3,
+      "digest": "md5-3LpvxDI+BQZoE5RdCPvi8w==",
+      "length": 661,
+      "stub": true
+    },
+    "icon-people-woman-pregnant.svg": {
+      "content_type": "image/svg+xml",
+      "revpos": 3,
+      "digest": "md5-y95Ju9Oqw2P//teJZV4lKQ==",
+      "length": 659,
+      "stub": true
+    },
+    "icon-people-woman.svg": {
+      "content_type": "image/svg+xml",
+      "revpos": 3,
+      "digest": "md5-opp/abfvHM1TmNJozMTiKg==",
+      "length": 605,
+      "stub": true
+    },
+    "icon-person.svg": {
+      "content_type": "image/svg+xml",
+      "revpos": 3,
+      "digest": "md5-8HoRGS0ihs2qwbg+N4Gmiw==",
+      "length": 435,
+      "stub": true
+    },
+    "icon-places-MOH.svg": {
+      "content_type": "image/svg+xml",
+      "revpos": 3,
+      "digest": "md5-yDGXk0mV3Wb/2VKiQ2Vtdg==",
+      "length": 639,
+      "stub": true
+    },
+    "icon-places-chv-area.svg": {
+      "content_type": "image/svg+xml",
+      "revpos": 3,
+      "digest": "md5-70oHopHsHzRVOcClV5FYTw==",
+      "length": 1145,
+      "stub": true
+    },
+    "icon-places-community.svg": {
+      "content_type": "image/svg+xml",
+      "revpos": 3,
+      "digest": "md5-EF5wf5HB1MD28AMazr8Ljg==",
+      "length": 2925,
+      "stub": true
+    },
+    "icon-places-cu.svg": {
+      "content_type": "image/svg+xml",
+      "revpos": 3,
+      "digest": "md5-0yiHaJxL096dvNhPrncsdg==",
+      "length": 6930,
+      "stub": true
+    },
+    "icon-service-rating.svg": {
+      "content_type": "image/svg+xml",
+      "revpos": 3,
+      "digest": "md5-K4kooTu+3NJNgmg1YT0nmw==",
+      "length": 1070,
+      "stub": true
+    },
+    "icon-signal-reporting.png": {
+      "content_type": "image/png",
+      "revpos": 3,
+      "digest": "md5-ecGITrwXn/TeUX7tbxDaFw==",
+      "length": 1599,
+      "stub": true
+    },
+    "icon-signal-verification.png": {
+      "content_type": "image/png",
+      "revpos": 3,
+      "digest": "md5-em7aqF2juZTT2a/s1PTSmw==",
+      "length": 1882,
+      "stub": true
+    }
+  }
+}

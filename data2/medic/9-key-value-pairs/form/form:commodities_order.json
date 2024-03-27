@@ -1,0 +1,40 @@
+{
+  "_id": "form:commodities_order",
+  "_rev": "2-2a0c8a0fd303f66312fea9546dbaf316",
+  "type": "form",
+  "internalId": "commodities_order",
+  "xmlVersion": {
+    "time": 1711522115019,
+    "sha256": "cc5ec4e618278f925d1e8b98a0e73077bd6ca00c3f140d23f080bf85791fc23f"
+  },
+  "title": "Commodities Order",
+  "context": {
+    "person": false,
+    "place": true,
+    "expression": "contact.contact_type === 'c_community_health_unit' && user.parent && user.parent.contact_type === 'c_community_health_unit'"
+  },
+  "icon": "icon-commodity",
+  "_attachments": {
+    "xml": {
+      "content_type": "application/xml",
+      "revpos": 2,
+      "digest": "md5-WWH8oRfbsvI0ZY4xP2GImQ==",
+      "length": 245654,
+      "stub": true
+    },
+    "form.html": {
+      "content_type": "text/html",
+      "revpos": 2,
+      "digest": "md5-7xI894pKLQLcIPKpqshwsA==",
+      "length": 283169,
+      "stub": true
+    },
+    "model.xml": {
+      "content_type": "text/xml",
+      "revpos": 2,
+      "digest": "md5-HoawmWfwruX+wFNDPZatIA==",
+      "length": 21636,
+      "stub": true
+    }
+  }
+}

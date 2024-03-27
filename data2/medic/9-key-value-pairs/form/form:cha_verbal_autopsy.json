@@ -1,0 +1,42 @@
+{
+  "_id": "form:cha_verbal_autopsy",
+  "_rev": "2-ae719c078a4613c8c0118eddf7c47594",
+  "type": "form",
+  "internalId": "cha_verbal_autopsy",
+  "xmlVersion": {
+    "time": 1711522114723,
+    "sha256": "2f0348eab06bba33a294d7d66c4099d3e827e52d86b383734e397c52c39bc8e1"
+  },
+  "title": {
+    "en": "CHA Verbal Autopsy"
+  },
+  "context": {
+    "person": false,
+    "place": false,
+    "expression": "!!contact"
+  },
+  "icon": "icon-person",
+  "_attachments": {
+    "xml": {
+      "content_type": "application/xml",
+      "revpos": 2,
+      "digest": "md5-EgeDAyLhOJT/SHJauFGlqw==",
+      "length": 10666,
+      "stub": true
+    },
+    "form.html": {
+      "content_type": "text/html",
+      "revpos": 2,
+      "digest": "md5-XCh+sfftruUoYWLNYahPbA==",
+      "length": 8924,
+      "stub": true
+    },
+    "model.xml": {
+      "content_type": "text/xml",
+      "revpos": 2,
+      "digest": "md5-rQ1xvzKaItHpjocyp4METw==",
+      "length": 2287,
+      "stub": true
+    }
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "_id": "5d64effb-afbe-4989-8fe4-14327c73e185",
+  "_rev": "1-073b3be0e2e366900d02fdd3be4ae76d",
+  "parent": {
+    "_id": "75b61d8e-8007-4b2b-af4c-b6afe35ca46f",
+    "parent": {
+      "_id": "27b063b8-2d27-47bf-a348-37a7cc96c94b",
+      "parent": {
+        "_id": "0081f64f-5279-40ec-b88b-a5c1f384f61d",
+        "parent": {
+          "_id": "1bcb7748-a0fa-4372-80d6-133d7d7f9e4e"
+        }
+      }
+    }
+  },
+  "type": "contact",
+  "contact_type": "e_household",
+  "name": "Tom Machera Maroko Household",
+  "geolocation": "",
+  "contact": {
+    "_id": "d4ea2e76-f025-411d-b0e8-4c71815fef42"
+  },
+  "has_functional_latrine": "yes",
+  "has_functional_handwashing_facility": "yes",
+  "uses_treated_water": "no",
+  "has_functional_refuse_disposal_facility": "yes",
+  "wash_status": "Not good",
+  "has_insurance_cover": "false",
+  "specific_insurance_cover": "",
+  "r_has_health_cover": "No",
+  "needs_registration_follow_up": "yes",
+  "meta": {
+    "created_by": "medic",
+    "created_by_person_uuid": "",
+    "created_by_place_uuid": ""
+  },
+  "reported_date": 1711525374559,
+  "form_version": {
+    "time": 1711522120413,
+    "sha256": "6d73ff4fe7eb4782e3a9c74d61e7103e25c3cfb4a06ab377f3a7dadbc13d795c"
+  }
+}

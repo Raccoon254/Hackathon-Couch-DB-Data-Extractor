@@ -1,0 +1,38 @@
+{
+  "_id": "form:contact:f_client:create",
+  "_rev": "2-e5ed1bca925d8f3162eaa956c6669588",
+  "type": "form",
+  "internalId": "contact:f_client:create",
+  "xmlVersion": {
+    "time": 1711522120607,
+    "sha256": "efe5b8103e48ce7fcea7c0583611a015e2b180401b99e5c0183788f2d4cbad79"
+  },
+  "title": "Add New Person",
+  "context": {
+    "person": false,
+    "place": false
+  },
+  "_attachments": {
+    "xml": {
+      "content_type": "application/xml",
+      "revpos": 2,
+      "digest": "md5-qhTfgEN5DfJSnxYhnb/fHA==",
+      "length": 793877,
+      "stub": true
+    },
+    "form.html": {
+      "content_type": "text/html",
+      "revpos": 2,
+      "digest": "md5-6H8hNbe94pmF0eJWKlG0Bw==",
+      "length": 263420,
+      "stub": true
+    },
+    "model.xml": {
+      "content_type": "text/xml",
+      "revpos": 2,
+      "digest": "md5-Zpkv5EQn5ga6ylQfyL7AoQ==",
+      "length": 371328,
+      "stub": true
+    }
+  }
+}

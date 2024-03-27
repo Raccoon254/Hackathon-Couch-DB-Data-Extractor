@@ -1,0 +1,24 @@
+{
+  "_id": "1bcb7748-a0fa-4372-80d6-133d7d7f9e4e",
+  "_rev": "1-a6afe585907709bbd30e4ad428255aab",
+  "parent": "",
+  "type": "contact",
+  "is_name_generated": "false",
+  "name": "Kisii",
+  "external_id": "12345",
+  "contact": {
+    "_id": "1e7b9b60-852e-41e7-a433-30e3ad5f18c5"
+  },
+  "geolocation": "",
+  "meta": {
+    "created_by": "medic",
+    "created_by_person_uuid": "",
+    "created_by_place_uuid": ""
+  },
+  "contact_type": "a_county",
+  "reported_date": 1711524086361,
+  "form_version": {
+    "time": 1711522119822,
+    "sha256": "cc2560b7e61ccac6f3acef47f224f7a07d6acdcba01d415e99c40cdcb9e786c9"
+  }
+}

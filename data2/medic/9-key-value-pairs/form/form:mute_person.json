@@ -1,0 +1,42 @@
+{
+  "_id": "form:mute_person",
+  "_rev": "2-67e974dbb739b157b9bbbe29b257b7c5",
+  "type": "form",
+  "internalId": "mute_person",
+  "xmlVersion": {
+    "time": 1711522118116,
+    "sha256": "a64a53c9a529c8060b87b5431050e3a8883293682ec42cf52b5f0190dbb96dd1"
+  },
+  "title": {
+    "en": "Mute Person"
+  },
+  "context": {
+    "person": true,
+    "place": false,
+    "expression": "contact.contact_type === 'f_client' && user.parent && user.parent.contact_type === 'd_community_health_volunteer_area' && summary.is_eligible_for_home_visit_service"
+  },
+  "icon": "icon-mute",
+  "_attachments": {
+    "xml": {
+      "content_type": "application/xml",
+      "revpos": 2,
+      "digest": "md5-qHSSNAy77wX458oEwgfNVQ==",
+      "length": 6225,
+      "stub": true
+    },
+    "form.html": {
+      "content_type": "text/html",
+      "revpos": 2,
+      "digest": "md5-fDjGlq6Spmaay3/zY0eZvA==",
+      "length": 6220,
+      "stub": true
+    },
+    "model.xml": {
+      "content_type": "text/xml",
+      "revpos": 2,
+      "digest": "md5-OIhqYBKHDVVi3KM5JNFqIg==",
+      "length": 1440,
+      "stub": true
+    }
+  }
+}

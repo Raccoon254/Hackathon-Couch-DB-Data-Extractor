@@ -1,0 +1,40 @@
+{
+  "_id": "form:community_event",
+  "_rev": "2-d346f42f747ab380f970b1a6a77f8fad",
+  "type": "form",
+  "internalId": "community_event",
+  "xmlVersion": {
+    "time": 1711522116227,
+    "sha256": "d47ed72c0fb48bc443a2df264d5e1bc0639d819b7263bca4bd51df5b804a45c4"
+  },
+  "title": "Community Event",
+  "context": {
+    "person": false,
+    "place": true,
+    "expression": "contact.contact_type === 'c_community_health_unit' && user.parent && user.parent.contact_type === 'c_community_health_unit'"
+  },
+  "icon": "icon-community-helth-unit-dark",
+  "_attachments": {
+    "xml": {
+      "content_type": "application/xml",
+      "revpos": 2,
+      "digest": "md5-HnH7a8uTw8SpRM1njTM9yg==",
+      "length": 5966,
+      "stub": true
+    },
+    "form.html": {
+      "content_type": "text/html",
+      "revpos": 2,
+      "digest": "md5-3QFMA6F9jfAyNxiyeKa6Zw==",
+      "length": 6099,
+      "stub": true
+    },
+    "model.xml": {
+      "content_type": "text/xml",
+      "revpos": 2,
+      "digest": "md5-R8ikorDlwGO9cVNEtnhMMA==",
+      "length": 1308,
+      "stub": true
+    }
+  }
+}

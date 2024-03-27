@@ -1,0 +1,40 @@
+{
+  "_id": "form:chv_supervision",
+  "_rev": "2-c92dfc32962866632e67f195d011ba87",
+  "type": "form",
+  "internalId": "chv_supervision",
+  "xmlVersion": {
+    "time": 1711522114928,
+    "sha256": "9d63af713f81f40438769f86eff74d6f3383dbd5ffb329144d4c62f7415c94b0"
+  },
+  "title": "CHP Supervision",
+  "context": {
+    "person": true,
+    "place": false,
+    "expression": "contact.contact_type === 'person' && contact.parent.contact_type === 'd_community_health_volunteer_area' && user.parent &&  user.parent.contact_type === 'c_community_health_unit'"
+  },
+  "icon": "icon-service-rating",
+  "_attachments": {
+    "xml": {
+      "content_type": "application/xml",
+      "revpos": 2,
+      "digest": "md5-xItu55EGooYy1eYhrpzUwg==",
+      "length": 162533,
+      "stub": true
+    },
+    "form.html": {
+      "content_type": "text/html",
+      "revpos": 2,
+      "digest": "md5-/uiChvV7AnBoly4sc/spUQ==",
+      "length": 152495,
+      "stub": true
+    },
+    "model.xml": {
+      "content_type": "text/xml",
+      "revpos": 2,
+      "digest": "md5-iEvAXgBTS4ZDjidZHYwnuw==",
+      "length": 8436,
+      "stub": true
+    }
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "_id": "form:unmute_person",
+  "_rev": "2-a56d7f9939c43158574068e6aa8459dc",
+  "type": "form",
+  "internalId": "unmute_person",
+  "xmlVersion": {
+    "time": 1711522119694,
+    "sha256": "2852b2949e0d23ce417ef08648016730cd9814fadcde3208be0f5416afa4ddc0"
+  },
+  "title": {
+    "en": "Unmute Person"
+  },
+  "context": {
+    "person": true,
+    "place": false,
+    "expression": "contact && contact.contact_type === 'f_client' && user.parent && user.parent.contact_type === 'd_community_health_volunteer_area' && contact.muted"
+  },
+  "icon": "icon-mute",
+  "_attachments": {
+    "xml": {
+      "content_type": "application/xml",
+      "revpos": 2,
+      "digest": "md5-1Atv7dCM/juBO4gY8JD4Qg==",
+      "length": 9593,
+      "stub": true
+    },
+    "form.html": {
+      "content_type": "text/html",
+      "revpos": 2,
+      "digest": "md5-WrDUSdorUNsC17yg6R+CVQ==",
+      "length": 8788,
+      "stub": true
+    },
+    "model.xml": {
+      "content_type": "text/xml",
+      "revpos": 2,
+      "digest": "md5-MAzjuSP/idugSEWbGjceDg==",
+      "length": 1979,
+      "stub": true
+    }
+  }
+}

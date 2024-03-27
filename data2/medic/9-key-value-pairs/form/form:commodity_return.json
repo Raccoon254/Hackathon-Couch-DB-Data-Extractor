@@ -1,0 +1,40 @@
+{
+  "_id": "form:commodity_return",
+  "_rev": "2-4988265425506e8ff13757620166d3fd",
+  "type": "form",
+  "internalId": "commodity_return",
+  "xmlVersion": {
+    "time": 1711522115408,
+    "sha256": "01ca92cae9915e63d7ec97e349d5f37d585af279e629ed14acb9a1dd65371110"
+  },
+  "title": "Commodity Return",
+  "context": {
+    "person": false,
+    "place": true,
+    "expression": "contact.contact_type === 'd_community_health_volunteer_area' && user.parent && user.parent.contact_type === 'd_community_health_volunteer_area'"
+  },
+  "icon": "icon-commodity",
+  "_attachments": {
+    "xml": {
+      "content_type": "application/xml",
+      "revpos": 2,
+      "digest": "md5-8LixTFuY6V8erJcoSjcSuA==",
+      "length": 452541,
+      "stub": true
+    },
+    "form.html": {
+      "content_type": "text/html",
+      "revpos": 2,
+      "digest": "md5-AFW4byheeCRelwQecsgMLQ==",
+      "length": 560858,
+      "stub": true
+    },
+    "model.xml": {
+      "content_type": "text/xml",
+      "revpos": 2,
+      "digest": "md5-WktxVZ8pjqc/x2EutgS9Rw==",
+      "length": 34665,
+      "stub": true
+    }
+  }
+}

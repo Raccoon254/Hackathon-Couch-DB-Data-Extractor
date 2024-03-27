@@ -1,0 +1,42 @@
+{
+  "_id": "form:treatment_follow_up",
+  "_rev": "2-f7b4a11297a410836a65069364409f11",
+  "type": "form",
+  "internalId": "treatment_follow_up",
+  "xmlVersion": {
+    "time": 1711522119483,
+    "sha256": "8865b1d2a67911c66b37879bd5ee53367340980a79298a23085f4d3daa7b05bd"
+  },
+  "title": {
+    "en": "Treatment follow up"
+  },
+  "context": {
+    "person": false,
+    "place": false,
+    "expression": "!!contact.contact_type"
+  },
+  "icon": "icon-commodity",
+  "_attachments": {
+    "xml": {
+      "content_type": "application/xml",
+      "revpos": 2,
+      "digest": "md5-Wkf1av3CgriyDE1+hIZKlw==",
+      "length": 24138,
+      "stub": true
+    },
+    "form.html": {
+      "content_type": "text/html",
+      "revpos": 2,
+      "digest": "md5-tOcYsqUGBqviYhUEKP2mNQ==",
+      "length": 30832,
+      "stub": true
+    },
+    "model.xml": {
+      "content_type": "text/xml",
+      "revpos": 2,
+      "digest": "md5-vPXK3+7dQp3L1BQMu2eEng==",
+      "length": 3278,
+      "stub": true
+    }
+  }
+}

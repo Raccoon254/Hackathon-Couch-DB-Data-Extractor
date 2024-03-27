@@ -1,0 +1,38 @@
+{
+  "_id": "form:contact:e_household:edit",
+  "_rev": "2-04a605e6ad9e34d2ad73130e88f5c48b",
+  "type": "form",
+  "internalId": "contact:e_household:edit",
+  "xmlVersion": {
+    "time": 1711522120537,
+    "sha256": "a10211100bcbb696cf199beea52e763fe67fee7c41e65661db78033defe73b0a"
+  },
+  "title": "Edit Household",
+  "context": {
+    "person": false,
+    "place": false
+  },
+  "_attachments": {
+    "xml": {
+      "content_type": "application/xml",
+      "revpos": 2,
+      "digest": "md5-0UyrbA9Ae52bNOpS5hSgVA==",
+      "length": 8216,
+      "stub": true
+    },
+    "form.html": {
+      "content_type": "text/html",
+      "revpos": 2,
+      "digest": "md5-zjyWvZF8G5mlt0GvQudBWg==",
+      "length": 9051,
+      "stub": true
+    },
+    "model.xml": {
+      "content_type": "text/xml",
+      "revpos": 2,
+      "digest": "md5-ef4FNF5sgZZAgNG4N5619g==",
+      "length": 1470,
+      "stub": true
+    }
+  }
+}

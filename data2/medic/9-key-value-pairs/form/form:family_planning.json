@@ -1,0 +1,40 @@
+{
+  "_id": "form:family_planning",
+  "_rev": "2-3e0ac9c27672164bab6b24ae92b5e80b",
+  "type": "form",
+  "internalId": "family_planning",
+  "xmlVersion": {
+    "time": 1711522117547,
+    "sha256": "4e79943dbdc7bb27912ff6183f22d8d7d80cb19dbac1e910f5205c4649508143"
+  },
+  "title": "Family Planning Service",
+  "context": {
+    "person": true,
+    "place": false,
+    "expression": "contact.contact_type === 'f_client' && (!contact.date_of_birth || (ageInYears(contact) >= 15 && ageInYears(contact) <= 49)) && summary.is_female_or_intersex && user.parent &&  user.parent.contact_type === 'd_community_health_volunteer_area' && summary.is_eligible_for_home_visit_service && !summary.is_pregnant"
+  },
+  "icon": "icon-family-planning-service",
+  "_attachments": {
+    "xml": {
+      "content_type": "application/xml",
+      "revpos": 2,
+      "digest": "md5-bvB99LL003Xsfm6BrCf6sw==",
+      "length": 42375,
+      "stub": true
+    },
+    "form.html": {
+      "content_type": "text/html",
+      "revpos": 2,
+      "digest": "md5-IEc2u2Ui12IOa+Wh+zikFw==",
+      "length": 44341,
+      "stub": true
+    },
+    "model.xml": {
+      "content_type": "text/xml",
+      "revpos": 2,
+      "digest": "md5-/JvS7/gzwXjcJD06AGIsNA==",
+      "length": 7874,
+      "stub": true
+    }
+  }
+}

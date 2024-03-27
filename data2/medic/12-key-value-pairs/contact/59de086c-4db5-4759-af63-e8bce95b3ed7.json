@@ -1,0 +1,21 @@
+{
+  "_id": "59de086c-4db5-4759-af63-e8bce95b3ed7",
+  "_rev": "1-e3c666a4fe0895b2d5a9d79cd506c622",
+  "parent": "",
+  "type": "contact",
+  "name": "Nairobi",
+  "external_id": "12348",
+  "contact": "",
+  "geolocation": "",
+  "meta": {
+    "created_by": "medic",
+    "created_by_person_uuid": "",
+    "created_by_place_uuid": ""
+  },
+  "contact_type": "a_county",
+  "reported_date": 1711524405162,
+  "form_version": {
+    "time": 1711522119822,
+    "sha256": "cc2560b7e61ccac6f3acef47f224f7a07d6acdcba01d415e99c40cdcb9e786c9"
+  }
+}

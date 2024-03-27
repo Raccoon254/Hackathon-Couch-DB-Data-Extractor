@@ -1,0 +1,10 @@
+{
+  "_id": "org.couchdb.user:medic",
+  "_rev": "2-7035a74129b2bf8ff30347b2e51c4e59",
+  "name": "medic",
+  "type": "user-settings",
+  "roles": [
+    "admin"
+  ],
+  "known": true
+}

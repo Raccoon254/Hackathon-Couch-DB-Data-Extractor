@@ -1,0 +1,40 @@
+{
+  "_id": "form:cha_supervision_calendar",
+  "_rev": "2-51ba4e2ba7391e37d8fc75465546dcb1",
+  "type": "form",
+  "internalId": "cha_supervision_calendar",
+  "xmlVersion": {
+    "time": 1711522114632,
+    "sha256": "54f39de9051d98876861223f134af76917b6532ee3bea378d421cd905dbdd70b"
+  },
+  "title": "CHA Supervision Calendar",
+  "context": {
+    "person": true,
+    "place": false,
+    "expression": "contact.contact_type === 'person' && contact.parent.contact_type === 'd_community_health_volunteer_area' && user.parent.contact_type === 'c_community_health_unit'"
+  },
+  "icon": "icon-service-rating",
+  "_attachments": {
+    "xml": {
+      "content_type": "application/xml",
+      "revpos": 2,
+      "digest": "md5-QBogKASdAqsU2rfHoy0LPA==",
+      "length": 5091,
+      "stub": true
+    },
+    "form.html": {
+      "content_type": "text/html",
+      "revpos": 2,
+      "digest": "md5-37EivC5vgX/MeT5MX59dOQ==",
+      "length": 3905,
+      "stub": true
+    },
+    "model.xml": {
+      "content_type": "text/xml",
+      "revpos": 2,
+      "digest": "md5-wloI7L5G/P0z4DJbzQbeWA==",
+      "length": 1378,
+      "stub": true
+    }
+  }
+}

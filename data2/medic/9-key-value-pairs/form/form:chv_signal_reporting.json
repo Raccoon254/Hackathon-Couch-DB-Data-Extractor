@@ -1,0 +1,40 @@
+{
+  "_id": "form:chv_signal_reporting",
+  "_rev": "2-61cde3b07ecaf50f674e00c3c74a6e3e",
+  "type": "form",
+  "internalId": "chv_signal_reporting",
+  "xmlVersion": {
+    "time": 1711522114875,
+    "sha256": "11498c1d3a06c24bd0d4a282747ddf64e6b194878a5ec19163f8f0311f0d1427"
+  },
+  "title": "CEBS Signal Report",
+  "context": {
+    "person": false,
+    "place": true,
+    "expression": "contact.contact_type === 'd_community_health_volunteer_area' && user.parent && user.parent.contact_type === 'd_community_health_volunteer_area'"
+  },
+  "icon": "icon-signal-reporting",
+  "_attachments": {
+    "xml": {
+      "content_type": "application/xml",
+      "revpos": 2,
+      "digest": "md5-ZKc1e80kJQoc9OO72CmX8w==",
+      "length": 9628,
+      "stub": true
+    },
+    "form.html": {
+      "content_type": "text/html",
+      "revpos": 2,
+      "digest": "md5-QJYgIjSgiUHgcz8iS8F2wg==",
+      "length": 9954,
+      "stub": true
+    },
+    "model.xml": {
+      "content_type": "text/xml",
+      "revpos": 2,
+      "digest": "md5-ZO32k0NBw6Cik+KaGWOwUA==",
+      "length": 1480,
+      "stub": true
+    }
+  }
+}

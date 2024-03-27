@@ -1,0 +1,42 @@
+{
+  "_id": "form:commodity_count",
+  "_rev": "2-2f4f91ad2e93983503cd5ba3337588c0",
+  "type": "form",
+  "internalId": "commodity_count",
+  "xmlVersion": {
+    "time": 1711522115105,
+    "sha256": "14879ef565581bee065fc90d48eb6befd92db3977060b457c142e8edafe7b6b1"
+  },
+  "title": {
+    "en": "Commodity Count"
+  },
+  "context": {
+    "person": false,
+    "place": true,
+    "expression": "contact.contact_type === 'd_community_health_volunteer_area' && user.parent.contact_type === 'd_community_health_volunteer_area'"
+  },
+  "icon": "icon-form-general",
+  "_attachments": {
+    "xml": {
+      "content_type": "application/xml",
+      "revpos": 2,
+      "digest": "md5-snPFe69JHtmqaXJ4Z0uB/A==",
+      "length": 170368,
+      "stub": true
+    },
+    "form.html": {
+      "content_type": "text/html",
+      "revpos": 2,
+      "digest": "md5-pYC8p3VTVmUsy1kvEGsudQ==",
+      "length": 184763,
+      "stub": true
+    },
+    "model.xml": {
+      "content_type": "text/xml",
+      "revpos": 2,
+      "digest": "md5-PP/GahX1FoylVjjsm+oGyg==",
+      "length": 19581,
+      "stub": true
+    }
+  }
+}

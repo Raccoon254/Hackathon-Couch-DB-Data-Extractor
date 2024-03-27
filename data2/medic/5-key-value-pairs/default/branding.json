@@ -1,0 +1,26 @@
+{
+  "_id": "branding",
+  "_rev": "3-4d1ebc67e546da8e407fadb7193dfe71",
+  "title": "CHIS Kenya",
+  "resources": {
+    "logo": "CHIS logo.png",
+    "favicon": "CHIS arms logo.png",
+    "icon": "CHIS arms logo.png"
+  },
+  "_attachments": {
+    "CHIS arms logo.png": {
+      "content_type": "image/png",
+      "revpos": 3,
+      "digest": "md5-rE2P96mByLu8MtZuq/+aJg==",
+      "length": 52792,
+      "stub": true
+    },
+    "CHIS logo.png": {
+      "content_type": "image/png",
+      "revpos": 3,
+      "digest": "md5-MNDA5fhV/S3W6cJKfawyBA==",
+      "length": 12831,
+      "stub": true
+    }
+  }
+}

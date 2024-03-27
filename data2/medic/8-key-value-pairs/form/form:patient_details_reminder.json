@@ -1,0 +1,38 @@
+{
+  "_id": "form:patient_details_reminder",
+  "_rev": "2-c2af60e119a683b45e544be2962b78f9",
+  "type": "form",
+  "internalId": "patient_details_reminder",
+  "xmlVersion": {
+    "time": 1711522118451,
+    "sha256": "a2e3bf461974f667e7f8c735c508c46d864f5df3150b63f8ceeab292701264ed"
+  },
+  "title": "Client Details Revision",
+  "context": {
+    "person": false,
+    "place": false
+  },
+  "_attachments": {
+    "xml": {
+      "content_type": "application/xml",
+      "revpos": 2,
+      "digest": "md5-ARKPaTXEBDmLPJMRpCGzmw==",
+      "length": 5533,
+      "stub": true
+    },
+    "form.html": {
+      "content_type": "text/html",
+      "revpos": 2,
+      "digest": "md5-g7H73NW+peM6tDqI3QZVFA==",
+      "length": 5182,
+      "stub": true
+    },
+    "model.xml": {
+      "content_type": "text/xml",
+      "revpos": 2,
+      "digest": "md5-DD4MLpJ5n9uWpJZOaCYVsw==",
+      "length": 1127,
+      "stub": true
+    }
+  }
+}

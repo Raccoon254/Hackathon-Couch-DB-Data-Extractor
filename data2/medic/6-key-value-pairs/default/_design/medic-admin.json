@@ -1,0 +1,27 @@
+{
+  "_id": "_design/medic-admin",
+  "_rev": "3-c15d0e2f6b11b374bc58c833af609770",
+  "build_info": {
+    "application": "medic",
+    "base_version": "4.6.0",
+    "author": "npm on runner",
+    "namespace": "medic",
+    "build": "4.6.0-alpha.8437243664",
+    "time": "2024-03-26T14:03:07.700Z",
+    "version": "master",
+    "schema_version": 2
+  },
+  "views": {
+    "contacts_by_dhis_orgunit": {
+      "map": "function(doc) {\n  if (\n    doc.dhis &&\n    ['contact', 'person', 'clinic', 'health_center', 'district_hospital'].indexOf(doc.type) !== -1\n  ) {\n    if (Array.isArray(doc.dhis)) {\n      for (var i = 0; i < doc.dhis.length; ++i) {\n        emit(doc.dhis[i].orgUnit);\n      }\n    } else {\n      emit(doc.dhis.orgUnit);\n    }\n  }\n}"
+    },
+    "message_queue": {
+      "reduce": "_count",
+      "map": "function (doc) {\n  var mutedStatuses = ['muted', 'cleared', 'denied', 'duplicate'];\n  var scheduledStatus = 'scheduled';\n  var successStatuses = ['delivered', 'sent'];\n  var failureStatuses = ['failed'];\n\n  var _emitValue = function(keys, value) {\n    keys.forEach(function(key) {\n      if (key && key[0]) {\n        emit(key, value);\n      }\n    })\n  }\n\n  var _emit = function(tasks) {\n    tasks.forEach(function(task) {\n      var due = new Date(task.due || task.timestamp || doc.reported_date).getTime();\n      var dueMutedKey = ['due', due];\n      var deliveredFailureKey = [undefined, due];\n      var keys = [dueMutedKey, deliveredFailureKey];\n\n      if (task.state === scheduledStatus) {\n        dueMutedKey[0] = 'scheduled';\n      } else if (mutedStatuses.indexOf(task.state) > -1) {\n        dueMutedKey[0] = 'muted';\n      }\n      if (successStatuses.indexOf(task.state) > -1) {\n        deliveredFailureKey[0] = 'delivered';\n      }\n      if (failureStatuses.indexOf(task.state) > -1) {\n        deliveredFailureKey[0] = 'failed';\n      }\n\n      var taskData = {\n        state_history: task.state_history && task.state_history[task.state_history.length - 1],\n        state: task.state,\n        group: task.group,\n        translation_key: task.translation_key,\n        type: task.type\n      };\n\n      if(task.messages) {\n        task.messages.forEach(function(msg) {\n          if (msg.uuid && msg.to && msg.message) {\n            var value = {\n              sms: {\n                message: msg.message,\n                to: msg.to\n              },\n              task: taskData,\n              due: due\n            };\n\n            _emitValue(keys, value);\n          }\n        });\n      } else {\n        // generate the messages before displaying them in the admin console\n        var value = {\n          scheduled_sms: {\n            translation_key: task.message_key,\n            recipient: task.recipient,\n            content: task.message\n          },\n          task: taskData,\n          due: due\n        };\n\n        _emitValue(keys, value);\n      }\n\n    });\n  };\n  _emit(doc.tasks || []);\n  _emit(doc.scheduled_tasks || []);\n}"
+    }
+  },
+  "version": "4.6.0-alpha.8437243664",
+  "deploy_info": {
+    "timestamp": 1711523164612
+  }
+}

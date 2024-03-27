@@ -1,0 +1,42 @@
+{
+  "_id": "form:unmute_household",
+  "_rev": "2-52588d3c1ec8f371805420756f09fd27",
+  "type": "form",
+  "internalId": "unmute_household",
+  "xmlVersion": {
+    "time": 1711522119646,
+    "sha256": "818fcc4154d4e85e6e12e74e6c5a70743d6915ec13f886a9f30f043fbdaaf7c2"
+  },
+  "title": {
+    "en": "Unmute Household"
+  },
+  "context": {
+    "person": false,
+    "place": true,
+    "expression": "contact.contact_type === 'e_household' && user.parent.contact_type === 'd_community_health_volunteer_area' && contact.muted"
+  },
+  "icon": "icon-mute",
+  "_attachments": {
+    "xml": {
+      "content_type": "application/xml",
+      "revpos": 2,
+      "digest": "md5-syDYi2XUdUvO3NHdlBz3CQ==",
+      "length": 6985,
+      "stub": true
+    },
+    "form.html": {
+      "content_type": "text/html",
+      "revpos": 2,
+      "digest": "md5-rMXvjdpMWTyz8YtHfJJLOg==",
+      "length": 6270,
+      "stub": true
+    },
+    "model.xml": {
+      "content_type": "text/xml",
+      "revpos": 2,
+      "digest": "md5-FTqC3vMxPBMLM42smhEQ7w==",
+      "length": 1480,
+      "stub": true
+    }
+  }
+}

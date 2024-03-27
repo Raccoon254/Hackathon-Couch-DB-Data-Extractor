@@ -1,0 +1,40 @@
+{
+  "_id": "form:commodity_received",
+  "_rev": "2-491a80c00cedae75d4dfa7326d55fbe3",
+  "type": "form",
+  "internalId": "commodity_received",
+  "xmlVersion": {
+    "time": 1711522115293,
+    "sha256": "76a75efcc2cb4976346d04026d6478c6f9eedb315f0007b6ee451b717201be58"
+  },
+  "title": "Commodity Received",
+  "context": {
+    "person": false,
+    "place": false,
+    "expression": "!!contact"
+  },
+  "icon": "icon-commodity",
+  "_attachments": {
+    "xml": {
+      "content_type": "application/xml",
+      "revpos": 2,
+      "digest": "md5-x8K6U3doLvqEkLMMyojRFQ==",
+      "length": 261929,
+      "stub": true
+    },
+    "form.html": {
+      "content_type": "text/html",
+      "revpos": 2,
+      "digest": "md5-A+nTMvEg4k6bdqhbA/f9Zw==",
+      "length": 300555,
+      "stub": true
+    },
+    "model.xml": {
+      "content_type": "text/xml",
+      "revpos": 2,
+      "digest": "md5-2EqiPXj85/ipzCLWGnD/EA==",
+      "length": 28219,
+      "stub": true
+    }
+  }
+}

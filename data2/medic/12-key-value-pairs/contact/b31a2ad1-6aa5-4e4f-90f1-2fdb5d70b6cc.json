@@ -1,0 +1,21 @@
+{
+  "_id": "b31a2ad1-6aa5-4e4f-90f1-2fdb5d70b6cc",
+  "_rev": "1-50ed6c72aaa3109500a6e19b0cd175c6",
+  "parent": "",
+  "type": "contact",
+  "name": "Mombasa",
+  "external_id": "72882",
+  "contact": "",
+  "geolocation": "",
+  "meta": {
+    "created_by": "medic",
+    "created_by_person_uuid": "",
+    "created_by_place_uuid": ""
+  },
+  "contact_type": "a_county",
+  "reported_date": 1711542461139,
+  "form_version": {
+    "time": 1711522119822,
+    "sha256": "cc2560b7e61ccac6f3acef47f224f7a07d6acdcba01d415e99c40cdcb9e786c9"
+  }
+}

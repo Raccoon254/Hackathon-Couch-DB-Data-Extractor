@@ -1,0 +1,24 @@
+{
+  "_id": "_design/medic-conflicts",
+  "_rev": "3-54449d7c3ed672bda2b32ff2d1a0c0a0",
+  "build_info": {
+    "application": "medic",
+    "author": "npm on runner",
+    "base_version": "4.6.0",
+    "build": "4.6.0-alpha.8437243664",
+    "namespace": "medic",
+    "schema_version": 2,
+    "version": "master",
+    "time": "2024-03-26T14:03:07.700Z"
+  },
+  "version": "4.6.0-alpha.8437243664",
+  "views": {
+    "conflicts": {
+      "map": "function(doc) {\n  if (doc._conflicts) {\n    emit(doc._conflicts);\n  }\n}",
+      "reduce": "_count"
+    }
+  },
+  "deploy_info": {
+    "timestamp": 1711523164612
+  }
+}

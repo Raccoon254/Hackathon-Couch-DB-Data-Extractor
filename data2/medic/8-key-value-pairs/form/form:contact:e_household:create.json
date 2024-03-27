@@ -1,0 +1,38 @@
+{
+  "_id": "form:contact:e_household:create",
+  "_rev": "2-6125c690ecee64b85301bad0182e97bd",
+  "type": "form",
+  "internalId": "contact:e_household:create",
+  "xmlVersion": {
+    "time": 1711522120413,
+    "sha256": "6d73ff4fe7eb4782e3a9c74d61e7103e25c3cfb4a06ab377f3a7dadbc13d795c"
+  },
+  "title": "New Household",
+  "context": {
+    "person": false,
+    "place": false
+  },
+  "_attachments": {
+    "xml": {
+      "content_type": "application/xml",
+      "revpos": 2,
+      "digest": "md5-cXry5cqJ/z/MiumWkkTGbQ==",
+      "length": 1045010,
+      "stub": true
+    },
+    "form.html": {
+      "content_type": "text/html",
+      "revpos": 2,
+      "digest": "md5-AFg75yeXfc3dQWlm3pLvYg==",
+      "length": 547497,
+      "stub": true
+    },
+    "model.xml": {
+      "content_type": "text/xml",
+      "revpos": 2,
+      "digest": "md5-0SrTkytyi25mZTu45KNkLw==",
+      "length": 377044,
+      "stub": true
+    }
+  }
+}

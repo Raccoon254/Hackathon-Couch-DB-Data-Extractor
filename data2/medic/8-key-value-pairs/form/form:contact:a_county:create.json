@@ -1,0 +1,38 @@
+{
+  "_id": "form:contact:a_county:create",
+  "_rev": "2-890cd091ebc6a3e037f7122a00d132e1",
+  "type": "form",
+  "internalId": "contact:a_county:create",
+  "xmlVersion": {
+    "time": 1711522119822,
+    "sha256": "cc2560b7e61ccac6f3acef47f224f7a07d6acdcba01d415e99c40cdcb9e786c9"
+  },
+  "title": "New County",
+  "context": {
+    "person": false,
+    "place": false
+  },
+  "_attachments": {
+    "xml": {
+      "content_type": "application/xml",
+      "revpos": 2,
+      "digest": "md5-t4p+EJwFd9PE6/2XBkkLcw==",
+      "length": 13964,
+      "stub": true
+    },
+    "form.html": {
+      "content_type": "text/html",
+      "revpos": 2,
+      "digest": "md5-yEggc4ilzwaqSuOxikooYA==",
+      "length": 13477,
+      "stub": true
+    },
+    "model.xml": {
+      "content_type": "text/xml",
+      "revpos": 2,
+      "digest": "md5-0x6g4/WgrkPjGo+tjYOEWg==",
+      "length": 1803,
+      "stub": true
+    }
+  }
+}

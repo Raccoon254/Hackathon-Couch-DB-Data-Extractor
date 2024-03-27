@@ -1,0 +1,39 @@
+{
+  "_id": "form:cha_signal_verification",
+  "_rev": "2-6cfdaa9fc63a128e60687298af4744f9",
+  "type": "form",
+  "internalId": "cha_signal_verification",
+  "xmlVersion": {
+    "time": 1711522114536,
+    "sha256": "a242962fb1015f788e0e8f36aab482ab22dd4515c4b85ae99ac5845a4e87b412"
+  },
+  "title": "CEBS Signal Verification",
+  "context": {
+    "person": false,
+    "place": false
+  },
+  "icon": "icon-signal-verification",
+  "_attachments": {
+    "xml": {
+      "content_type": "application/xml",
+      "revpos": 2,
+      "digest": "md5-3JjFX1bZMhJmWdrUcMUivg==",
+      "length": 28508,
+      "stub": true
+    },
+    "form.html": {
+      "content_type": "text/html",
+      "revpos": 2,
+      "digest": "md5-rMzjNX2LAC5Pe3/8ONv5QQ==",
+      "length": 36861,
+      "stub": true
+    },
+    "model.xml": {
+      "content_type": "text/xml",
+      "revpos": 2,
+      "digest": "md5-uhdWAEYO3+bIu0sYuhroMg==",
+      "length": 2850,
+      "stub": true
+    }
+  }
+}
