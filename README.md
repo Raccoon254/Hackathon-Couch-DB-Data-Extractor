@@ -13,7 +13,7 @@ This Node.js script fetches documents from all databases in a CouchDB instance, 
 1. Clone this repository or download the script file.
 2. Install dependencies by running `npm install nano express`.
 
-**##Configuration:**
+## Configuration
 
 Ensure CouchDB server is running and accessible at http://127.0.0.1:5984.
 Modify the CouchDB connection details (URL, username, and password) in the script if required.
@@ -34,20 +34,19 @@ Modify the CouchDB connection details (URL, username, and password) in the scrip
 
 ## API Endpoints
 
-- Each database fetched from CouchDB will have a corresponding API endpoint in the format: `GET /api/<dbName>`
-- Example: `GET /api/my_database`
+- **GET /api/{database-name}:** Retrieves data from the specified CouchDB database.
+  Example: GET http://localhost:3000/api/medic
 
-  
-  ##**Features**
-Fetches documents from all databases in a CouchDB instance.
-Stores documents locally as JSON files.
-Provides a RESTful API to access the stored documents.
+- **POST /auth/login:** Authenticates users.
+  Example:  curl -X POST -H "Content-Type: application/json" -d '{"username":"yourusername","password":"yourpassword"}' http://localhost:3000/auth/login
+
+## Features
+
+- Fetches documents from CouchDB databases and stores them as JSON files locally.
+- Provides API endpoints to access the stored data.
+- Supports user authentication via HTTP POST requests.
 
 ## Security Considerations
 
 - Ensure proper security measures are in place, such as securing CouchDB with HTTPS and using secure authentication methods.
 - Review and adjust configurations as needed for remote or customized setups.
-
-
-
-
