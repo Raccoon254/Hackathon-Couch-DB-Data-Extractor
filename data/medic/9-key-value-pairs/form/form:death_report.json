@@ -1,0 +1,42 @@
+{
+  "_id": "form:death_report",
+  "_rev": "5-5042eccd331de6807d955acd31c0b3de",
+  "type": "form",
+  "internalId": "death_report",
+  "xmlVersion": {
+    "time": 1711522116465,
+    "sha256": "11625b0aaf4c5091c2ac216992c4851aab7bffbf08c2c2b53f9a2b2e81866cef"
+  },
+  "title": {
+    "en": "Death Report"
+  },
+  "context": {
+    "person": true,
+    "place": false,
+    "expression": "contact.contact_type === 'f_client' && user.parent && user.parent.contact_type === 'd_community_health_volunteer_area' && summary.is_eligible_for_home_visit_service"
+  },
+  "icon": "icon-death-coffin",
+  "_attachments": {
+    "xml": {
+      "content_type": "application/xml",
+      "revpos": 5,
+      "digest": "md5-Wu61DCDluXa9vyBo9jReqw==",
+      "length": 16092,
+      "stub": true
+    },
+    "form.html": {
+      "content_type": "text/html",
+      "revpos": 5,
+      "digest": "md5-j5ZRs9DayTX68XedjZkyPA==",
+      "length": 18727,
+      "stub": true
+    },
+    "model.xml": {
+      "content_type": "text/xml",
+      "revpos": 5,
+      "digest": "md5-zZD3MhnvZFolicIBUzzhDw==",
+      "length": 2469,
+      "stub": true
+    }
+  }
+}

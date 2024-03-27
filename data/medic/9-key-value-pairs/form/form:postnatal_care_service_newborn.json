@@ -1,0 +1,40 @@
+{
+  "_id": "form:postnatal_care_service_newborn",
+  "_rev": "2-b22cdfe6cf4a919fecfb36bc57d59347",
+  "type": "form",
+  "internalId": "postnatal_care_service_newborn",
+  "xmlVersion": {
+    "time": 1711522118878,
+    "sha256": "5f33511fadd57f4c7f4cd62bf1dfc0427315382b6bf33c7cc5d3b4bf5a59208f"
+  },
+  "title": "Newborn PNC Home Visit Service",
+  "context": {
+    "person": true,
+    "place": false,
+    "expression": "user._id != contact._id && summary.is_newborn === true && user.parent && user.parent.contact_type === 'd_community_health_volunteer_area' && summary.is_eligible_for_home_visit_service"
+  },
+  "icon": "icon-baby",
+  "_attachments": {
+    "xml": {
+      "content_type": "application/xml",
+      "revpos": 2,
+      "digest": "md5-0M42pNY8TspKe3p0WvMYLQ==",
+      "length": 75289,
+      "stub": true
+    },
+    "form.html": {
+      "content_type": "text/html",
+      "revpos": 2,
+      "digest": "md5-h3he+I4axe7SDSpHwjvp0g==",
+      "length": 65351,
+      "stub": true
+    },
+    "model.xml": {
+      "content_type": "text/xml",
+      "revpos": 2,
+      "digest": "md5-0HMCewWD/yz7F1DAWj3HiQ==",
+      "length": 5376,
+      "stub": true
+    }
+  }
+}

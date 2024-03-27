@@ -1,0 +1,39 @@
+{
+  "_id": "form:commodity_returned",
+  "_rev": "2-f98d6091d46a58a4f74f8a2441987fc5",
+  "type": "form",
+  "internalId": "commodity_returned",
+  "xmlVersion": {
+    "time": 1711522115588,
+    "sha256": "f687cbab4c399274cdea510e3b58f3e7115cc039e650d0e1bf759add5319afed"
+  },
+  "title": "Commodity Returned",
+  "context": {
+    "person": false,
+    "place": false
+  },
+  "icon": "icon-commodity",
+  "_attachments": {
+    "xml": {
+      "content_type": "application/xml",
+      "revpos": 2,
+      "digest": "md5-L+pgc/w/eB5UhoduwYcLZA==",
+      "length": 264442,
+      "stub": true
+    },
+    "form.html": {
+      "content_type": "text/html",
+      "revpos": 2,
+      "digest": "md5-Ykx+ruVr8E85lv8iyFwpuQ==",
+      "length": 293753,
+      "stub": true
+    },
+    "model.xml": {
+      "content_type": "text/xml",
+      "revpos": 2,
+      "digest": "md5-Z66ONFTwTCT3K9QQeTxTkw==",
+      "length": 26605,
+      "stub": true
+    }
+  }
+}

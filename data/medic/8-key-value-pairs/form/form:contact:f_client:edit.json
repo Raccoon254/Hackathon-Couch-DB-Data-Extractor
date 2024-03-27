@@ -1,0 +1,38 @@
+{
+  "_id": "form:contact:f_client:edit",
+  "_rev": "2-1b3dc2889a15c50981ea420237106e8e",
+  "type": "form",
+  "internalId": "contact:f_client:edit",
+  "xmlVersion": {
+    "time": 1711522120725,
+    "sha256": "16dc5c2646bb3fb718f39204bb9fed39283ad79dbbb2ba7f3c7d3915afb8154b"
+  },
+  "title": "Edit Person",
+  "context": {
+    "person": false,
+    "place": false
+  },
+  "_attachments": {
+    "xml": {
+      "content_type": "application/xml",
+      "revpos": 2,
+      "digest": "md5-LxkjxaM25gxhSLTkFDjdkg==",
+      "length": 785340,
+      "stub": true
+    },
+    "form.html": {
+      "content_type": "text/html",
+      "revpos": 2,
+      "digest": "md5-IwHaMPxWbn0iprYIy/3glA==",
+      "length": 252137,
+      "stub": true
+    },
+    "model.xml": {
+      "content_type": "text/xml",
+      "revpos": 2,
+      "digest": "md5-j68VjnyqPBtGnitoDbTMRA==",
+      "length": 371791,
+      "stub": true
+    }
+  }
+}

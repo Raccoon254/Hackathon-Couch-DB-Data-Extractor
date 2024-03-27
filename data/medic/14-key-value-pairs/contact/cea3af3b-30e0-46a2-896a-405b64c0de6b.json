@@ -1,0 +1,30 @@
+{
+  "_id": "cea3af3b-30e0-46a2-896a-405b64c0de6b",
+  "_rev": "1-5acf89b31bb32f830d416fd41c973e7b",
+  "parent": {
+    "_id": "7b175997-524e-49e3-a671-d5bcc9e52554",
+    "parent": {
+      "_id": "59de086c-4db5-4759-af63-e8bce95b3ed7"
+    }
+  },
+  "type": "contact",
+  "is_name_generated": "false",
+  "name": "Lang'ata Test 1",
+  "external_id": "990230",
+  "code": "637",
+  "contact": {
+    "_id": "9dc13e34-f071-486a-a7e2-b7d8342cc25d"
+  },
+  "geolocation": "",
+  "meta": {
+    "created_by": "medic",
+    "created_by_person_uuid": "",
+    "created_by_place_uuid": ""
+  },
+  "contact_type": "c_community_health_unit",
+  "reported_date": 1711541311668,
+  "form_version": {
+    "time": 1711522120102,
+    "sha256": "59d0c7243c383bcf5f32da62145256c72b311ea6daf5adfa04782933ff111cdd"
+  }
+}

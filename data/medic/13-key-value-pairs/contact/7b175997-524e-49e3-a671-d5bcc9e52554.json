@@ -1,0 +1,26 @@
+{
+  "_id": "7b175997-524e-49e3-a671-d5bcc9e52554",
+  "_rev": "1-92dff4414d7d3bc7aad53ffa46b6f105",
+  "parent": {
+    "_id": "59de086c-4db5-4759-af63-e8bce95b3ed7"
+  },
+  "type": "contact",
+  "is_name_generated": "false",
+  "name": "Lang'ata",
+  "external_id": "09878",
+  "contact": {
+    "_id": "5c8a22a8-2bb5-4733-883e-f0ac33570d4e"
+  },
+  "geolocation": "",
+  "meta": {
+    "created_by": "medic",
+    "created_by_person_uuid": "",
+    "created_by_place_uuid": ""
+  },
+  "contact_type": "b_sub_county",
+  "reported_date": 1711541153937,
+  "form_version": {
+    "time": 1711522119969,
+    "sha256": "48c65e7810b51a08c6a8a664af036c00d088e8ce69133356a8d483e4dc3036ec"
+  }
+}

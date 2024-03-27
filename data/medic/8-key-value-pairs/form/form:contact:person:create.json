@@ -1,0 +1,37 @@
+{
+  "_id": "form:contact:person:create",
+  "_rev": "5-8c6427b19e6b5aaeedc37d2a5520b6af",
+  "type": "form",
+  "internalId": "contact:person:create",
+  "xmlVersion": {
+    "time": 1711522120892,
+    "sha256": "2b4a7c9d095d758a4fcd7d45768d6bb233f0d1475e760b1f780f58fa613e5c4c"
+  },
+  "title": "New Person",
+  "context": {
+    "permission": "can_create_chv_contacts"
+  },
+  "_attachments": {
+    "xml": {
+      "content_type": "application/xml",
+      "revpos": 5,
+      "digest": "md5-bTNNpG7Juk4bX/GtJSoovQ==",
+      "length": 11498,
+      "stub": true
+    },
+    "form.html": {
+      "content_type": "text/html",
+      "revpos": 5,
+      "digest": "md5-Rxr08J5Z8z4k2b7a0reRZQ==",
+      "length": 10032,
+      "stub": true
+    },
+    "model.xml": {
+      "content_type": "text/xml",
+      "revpos": 5,
+      "digest": "md5-VBMfIMXf1RxP9K10Wq/Uag==",
+      "length": 1295,
+      "stub": true
+    }
+  }
+}

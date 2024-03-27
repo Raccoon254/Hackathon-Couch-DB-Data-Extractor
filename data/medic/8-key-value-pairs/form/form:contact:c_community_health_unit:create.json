@@ -1,0 +1,38 @@
+{
+  "_id": "form:contact:c_community_health_unit:create",
+  "_rev": "2-2695c67b9eb2e8d27bf27a3983f426c5",
+  "type": "form",
+  "internalId": "contact:c_community_health_unit:create",
+  "xmlVersion": {
+    "time": 1711522120102,
+    "sha256": "59d0c7243c383bcf5f32da62145256c72b311ea6daf5adfa04782933ff111cdd"
+  },
+  "title": "New Community Health Unit",
+  "context": {
+    "person": false,
+    "place": false
+  },
+  "_attachments": {
+    "xml": {
+      "content_type": "application/xml",
+      "revpos": 2,
+      "digest": "md5-uhkSau4I/wc+EuAoIFuy4w==",
+      "length": 15074,
+      "stub": true
+    },
+    "form.html": {
+      "content_type": "text/html",
+      "revpos": 2,
+      "digest": "md5-5uT7w/kiCaKWXcAmey2Xdw==",
+      "length": 14376,
+      "stub": true
+    },
+    "model.xml": {
+      "content_type": "text/xml",
+      "revpos": 2,
+      "digest": "md5-zijpOGtJbLyoLtcBfoI4vw==",
+      "length": 1913,
+      "stub": true
+    }
+  }
+}

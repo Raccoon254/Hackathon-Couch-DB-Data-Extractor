@@ -1,0 +1,47 @@
+{
+  "_id": "ffcf8553-4ff8-429c-b820-916cfa19d07d",
+  "_rev": "1-fc5a3519fd07d9948d46d82189bfb25e",
+  "errors": [],
+  "form": null,
+  "reported_date": 1711527240660,
+  "tasks": [
+    {
+      "messages": [
+        {
+          "sent_by": "medic",
+          "to": "+254724795772",
+          "contact": {
+            "_id": "d4ea2e76-f025-411d-b0e8-4c71815fef42",
+            "parent": {
+              "_id": "5d64effb-afbe-4989-8fe4-14327c73e185",
+              "parent": {
+                "_id": "75b61d8e-8007-4b2b-af4c-b6afe35ca46f",
+                "parent": {
+                  "_id": "27b063b8-2d27-47bf-a348-37a7cc96c94b",
+                  "parent": {
+                    "_id": "0081f64f-5279-40ec-b88b-a5c1f384f61d",
+                    "parent": {
+                      "_id": "1bcb7748-a0fa-4372-80d6-133d7d7f9e4e"
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "message": "Test message to Tom",
+          "uuid": "94dc7d58-9283-460d-9a6f-60514897a1f3"
+        }
+      ],
+      "state_history": [
+        {
+          "state": "pending",
+          "timestamp": "2024-03-27T08:14:00.661Z"
+        }
+      ],
+      "state": "pending"
+    }
+  ],
+  "kujua_message": true,
+  "type": "data_record",
+  "sent_by": "medic"
+}

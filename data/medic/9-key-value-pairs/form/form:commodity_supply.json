@@ -1,0 +1,40 @@
+{
+  "_id": "form:commodity_supply",
+  "_rev": "2-0390aa2a44ce663e0dfb802f927bd739",
+  "type": "form",
+  "internalId": "commodity_supply",
+  "xmlVersion": {
+    "time": 1711522116095,
+    "sha256": "d3dcb91087377d40d24d958dfeba9b60a3afd3a92811118e2f55a8f4d1bbadf7"
+  },
+  "title": "Commodity Supply",
+  "context": {
+    "person": false,
+    "place": true,
+    "expression": "contact.contact_type === 'd_community_health_volunteer_area' && user.parent && user.parent.contact_type === 'c_community_health_unit'"
+  },
+  "icon": "icon-commodity",
+  "_attachments": {
+    "xml": {
+      "content_type": "application/xml",
+      "revpos": 2,
+      "digest": "md5-Cr093OkluLBdfVQxTLervg==",
+      "length": 179052,
+      "stub": true
+    },
+    "form.html": {
+      "content_type": "text/html",
+      "revpos": 2,
+      "digest": "md5-Mfn1Rk9O/HvsYVcGM6Y/cw==",
+      "length": 208770,
+      "stub": true
+    },
+    "model.xml": {
+      "content_type": "text/xml",
+      "revpos": 2,
+      "digest": "md5-L+JwiWitKkEYQoKUDLUc6A==",
+      "length": 18123,
+      "stub": true
+    }
+  }
+}

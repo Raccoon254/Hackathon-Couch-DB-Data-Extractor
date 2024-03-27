@@ -1,0 +1,41 @@
+{
+  "_id": "form:death_review",
+  "_rev": "2-89d15d41c53e57213fd1e5f71ac4a4e3",
+  "type": "form",
+  "internalId": "death_review",
+  "xmlVersion": {
+    "time": 1711522116646,
+    "sha256": "f111b4a4e1b3d9f983fcdd41a83647c6bbe8a7e25db1a2204fd812351512e244"
+  },
+  "title": {
+    "en": "Death Report Confirmation"
+  },
+  "context": {
+    "person": false,
+    "place": false
+  },
+  "icon": "icon-death",
+  "_attachments": {
+    "xml": {
+      "content_type": "application/xml",
+      "revpos": 2,
+      "digest": "md5-pijWCV7fBAIS2sRulWqkEA==",
+      "length": 25613,
+      "stub": true
+    },
+    "form.html": {
+      "content_type": "text/html",
+      "revpos": 2,
+      "digest": "md5-0LYzZTndpKFqk4V4O6U+bg==",
+      "length": 23334,
+      "stub": true
+    },
+    "model.xml": {
+      "content_type": "text/xml",
+      "revpos": 2,
+      "digest": "md5-959B90IbmfFxkV5CvMpQ8w==",
+      "length": 6118,
+      "stub": true
+    }
+  }
+}

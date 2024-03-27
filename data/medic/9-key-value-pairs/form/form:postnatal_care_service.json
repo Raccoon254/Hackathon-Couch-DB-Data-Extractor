@@ -1,0 +1,42 @@
+{
+  "_id": "form:postnatal_care_service",
+  "_rev": "2-8a1f5fc8dda6463bf805aac4c8430310",
+  "type": "form",
+  "internalId": "postnatal_care_service",
+  "xmlVersion": {
+    "time": 1711522118754,
+    "sha256": "73c43989bc46ad2b3bef32c80af127e2af1fb80fcf38f7930a77d2e1f64bf4a3"
+  },
+  "title": {
+    "en": "Mother and Newborn PNC Home Visit Service"
+  },
+  "context": {
+    "person": true,
+    "place": false,
+    "expression": "(!contact.date_of_birth || (ageInYears(contact) >= 10 && ageInYears(contact) <= 49)) && summary.is_female_or_intersex && contact.contact_type === 'f_client' && summary.is_eligible_for_home_visit_service && user.parent && user.parent.contact_type === 'd_community_health_volunteer_area' && user._id != contact._id && !summary.is_in_pnc"
+  },
+  "icon": "icon-postnatal-care-service",
+  "_attachments": {
+    "xml": {
+      "content_type": "application/xml",
+      "revpos": 2,
+      "digest": "md5-jttKjcmETc8OxaznGLnoiA==",
+      "length": 164821,
+      "stub": true
+    },
+    "form.html": {
+      "content_type": "text/html",
+      "revpos": 2,
+      "digest": "md5-wnXdUGfMFw6UZMrH0e6SSA==",
+      "length": 162146,
+      "stub": true
+    },
+    "model.xml": {
+      "content_type": "text/xml",
+      "revpos": 2,
+      "digest": "md5-NFZJGD3wdaZskONx0+Zbag==",
+      "length": 14026,
+      "stub": true
+    }
+  }
+}

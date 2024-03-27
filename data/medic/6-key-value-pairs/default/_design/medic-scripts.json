@@ -1,0 +1,32 @@
+{
+  "_id": "_design/medic-scripts",
+  "_rev": "3-d3baba783c84d7e84f33bc9135d6a0e9",
+  "build_info": {
+    "application": "medic",
+    "build": "4.6.0-alpha.8437243664",
+    "author": "npm on runner",
+    "base_version": "4.6.0",
+    "namespace": "medic",
+    "schema_version": 2,
+    "time": "2024-03-26T14:03:07.700Z",
+    "version": "master"
+  },
+  "version": "4.6.0-alpha.8437243664",
+  "views": {
+    "data_records": {
+      "map": "// Mostly used for exporting records\nfunction(doc) {\n  if (doc.type === 'data_record') {\n    var valid = !doc.errors || doc.errors.length === 0;\n    var form = doc.form;\n\n    emit([doc.reported_date]);\n\n    if (form) {\n      emit([valid, form, doc.reported_date]);\n      emit([valid, '*', doc.reported_date]);\n    }\n\n    var parent = doc.contact;\n    while(parent) {\n      if (parent._id) {\n        emit([parent._id, doc.reported_date]);\n        if (form) {\n          emit([valid, parent._id, form, doc.reported_date]);\n          emit([valid, parent._id, '*', doc.reported_date]);\n        }\n      }\n      parent = parent.parent;\n    }\n  }\n}"
+    },
+    "places_by_contact": {
+      "map": "function(doc) {\n  if (\n    doc.contact &&\n    doc.contact._id &&\n    (\n      doc.type === 'contact' ||\n      doc.type === 'clinic' ||\n      doc.type === 'health_center' ||\n      doc.type === 'district_hospital'\n    )\n  ) {\n    emit(doc.contact._id);\n  }\n}"
+    },
+    "data_records_by_ancestor": {
+      "map": "// Only used in ./scripts/delete_training_data_utils.js\nfunction(doc) {\n  if (doc.type === 'data_record') {\n    var contact = doc.contact;\n    while (contact) {\n      if (contact._id) {\n        emit(contact._id);\n      }\n      contact = contact.parent;\n    }\n  }\n}"
+    },
+    "places_by_type_parent_id_name": {
+      "map": "// Only used by /scripts/delete_clinics_for_place.js\nfunction (doc) {\n  if (doc.type === 'contact' ||\n      doc.type === 'clinic' ||\n      doc.type === 'health_center' ||\n      doc.type === 'district_hospital' ||\n      doc.type === 'national_office') {\n    var pid = doc.parent ? doc.parent._id : null;\n    emit([doc.type, pid, doc.name], {name: doc.name});\n  }\n}"
+    }
+  },
+  "deploy_info": {
+    "timestamp": 1711523164612
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "_id": "form:chu_supervision",
+  "_rev": "2-7f21bb7e0e78433ba46b474e331883f4",
+  "type": "form",
+  "internalId": "chu_supervision",
+  "xmlVersion": {
+    "time": 1711522114796,
+    "sha256": "504051ad2361b7ef356df6495aba98c151f4385b92c3a911ca2fb63b210f787e"
+  },
+  "title": {
+    "en": "CHU Supervision"
+  },
+  "context": {
+    "person": false,
+    "place": true,
+    "expression": "user.parent && user.parent.contact_type === 'b_sub_county' && !contact.muted && contact.contact_type === 'c_community_health_unit'"
+  },
+  "icon": "icon-community-health-unit",
+  "_attachments": {
+    "xml": {
+      "content_type": "application/xml",
+      "revpos": 2,
+      "digest": "md5-0CExslWxMrU68ik7L+a0Aw==",
+      "length": 54630,
+      "stub": true
+    },
+    "form.html": {
+      "content_type": "text/html",
+      "revpos": 2,
+      "digest": "md5-B6IC+v3zFSt3w0V6f+MepQ==",
+      "length": 72337,
+      "stub": true
+    },
+    "model.xml": {
+      "content_type": "text/xml",
+      "revpos": 2,
+      "digest": "md5-YF4gkRJ/ttCCXbAELpAYKw==",
+      "length": 6559,
+      "stub": true
+    }
+  }
+}

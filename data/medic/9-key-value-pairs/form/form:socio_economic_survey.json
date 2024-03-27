@@ -1,0 +1,42 @@
+{
+  "_id": "form:socio_economic_survey",
+  "_rev": "2-eee1b89779ba22e6b6c247788d7eca91",
+  "type": "form",
+  "internalId": "socio_economic_survey",
+  "xmlVersion": {
+    "time": 1711522119277,
+    "sha256": "2a6a6ceea5001aac90a7fe314591fa12eab27ad81b69428a85c763b1f6f54539"
+  },
+  "title": {
+    "en": "Socio Economic Survey"
+  },
+  "context": {
+    "person": false,
+    "place": true,
+    "expression": "contact && contact.contact_type === 'e_household' && user.parent && user.parent.contact_type === 'd_community_health_volunteer_area' && summary.is_eligible_for_home_visit_service"
+  },
+  "icon": "icon-cash-interest",
+  "_attachments": {
+    "xml": {
+      "content_type": "application/xml",
+      "revpos": 2,
+      "digest": "md5-CQ4ZZhQ3EIyuwBIiekgeRA==",
+      "length": 59016,
+      "stub": true
+    },
+    "form.html": {
+      "content_type": "text/html",
+      "revpos": 2,
+      "digest": "md5-4D89VfU4ZhGNgyD/vyU22w==",
+      "length": 91741,
+      "stub": true
+    },
+    "model.xml": {
+      "content_type": "text/xml",
+      "revpos": 2,
+      "digest": "md5-59UUKMZpGuaXb5u1wKr7uw==",
+      "length": 3518,
+      "stub": true
+    }
+  }
+}

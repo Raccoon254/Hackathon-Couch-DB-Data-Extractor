@@ -1,0 +1,32 @@
+{
+  "_id": "_design/medic-sms",
+  "_rev": "3-792c6173201c0f5e21c43d801c7f4f6e",
+  "build_info": {
+    "author": "npm on runner",
+    "base_version": "4.6.0",
+    "application": "medic",
+    "schema_version": 2,
+    "build": "4.6.0-alpha.8437243664",
+    "time": "2024-03-26T14:03:07.700Z",
+    "version": "master",
+    "namespace": "medic"
+  },
+  "views": {
+    "messages_by_gateway_ref": {
+      "map": "function(doc) {\n  var _emitMsg = function(ref, uuid) {\n    if (ref) {\n      emit(ref, uuid);\n    }\n  };\n\n  // outgoing\n  var _emit = function(tasks) {\n    tasks.forEach(function(task) {\n      if (task.messages) {\n        task.messages.forEach(function(msg) {\n          _emitMsg(task.gateway_ref, msg.uuid)\n        });\n      }\n    });\n  };\n  _emit(doc.tasks || []);\n  _emit(doc.scheduled_tasks || []);\n\n  // incoming\n  if (doc.type === 'data_record' && doc.sms_message) {\n    _emitMsg(doc.sms_message.gateway_ref, doc.sms_message.uuid);\n  }\n}"
+    },
+    "gateway_messages_by_state": {
+      "map": "function (doc) {\n  var _emit = function(tasks) {\n    tasks.forEach(function(task) {\n      if (!task.messages || !task.gateway_ref) {\n        return;\n      }\n\n      task.messages.forEach(function(msg) {\n        if (msg.uuid && msg.to && msg.message) {\n          var value = {\n            id: msg.uuid,\n            gateway_ref: task.gateway_ref,\n          };\n          emit(task.state, value);\n\n        }\n      });\n    });\n  };\n  _emit(doc.tasks || []);\n  _emit(doc.scheduled_tasks || []);\n}"
+    },
+    "messages_by_last_updated_state": {
+      "map": "function (doc) {\n  var finalStatuses = ['sent', 'delivered', 'failed'];\n  var mutedStatuses = ['muted', 'cleared', 'denied', 'duplicate'];\n  var scheduledStatus = 'scheduled';\n\n  var _emit = function(tasks) {\n    tasks.forEach(function(task) {\n      var history = task.state_history && task.state_history[task.state_history.length - 1];\n      var lastUpdated = new Date(history && history.timestamp || task.timestamp || doc.reported_date).getTime();\n\n      var statusGroup = 'pending';\n      if (task.state === scheduledStatus) {\n        statusGroup = scheduledStatus;\n      } else if (finalStatuses.indexOf(task.state) > -1) {\n        statusGroup = 'final';\n      } else if (mutedStatuses.indexOf(task.state) > -1) {\n        statusGroup = 'muted';\n      }\n\n      emit([statusGroup, lastUpdated, task.state]);\n    });\n  };\n  _emit(doc.tasks || []);\n  _emit(doc.scheduled_tasks || []);\n}"
+    },
+    "messages_by_uuid": {
+      "map": "function (doc) {\n  var _emit = function(tasks) {\n    tasks.forEach(function(task) {\n      if (task.messages) {\n        task.messages.forEach(function(msg) {\n          if (msg.uuid) {\n            emit(msg.uuid);\n          }\n        });\n      }\n    });\n  };\n  _emit(doc.tasks || []);\n  _emit(doc.scheduled_tasks || []);\n}"
+    }
+  },
+  "version": "4.6.0-alpha.8437243664",
+  "deploy_info": {
+    "timestamp": 1711523164612
+  }
+}

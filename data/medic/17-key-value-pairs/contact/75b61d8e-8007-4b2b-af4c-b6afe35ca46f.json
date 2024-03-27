@@ -1,0 +1,36 @@
+{
+  "_id": "75b61d8e-8007-4b2b-af4c-b6afe35ca46f",
+  "_rev": "1-84f3142255e0444325d8ab9bcfd51678",
+  "parent": {
+    "_id": "27b063b8-2d27-47bf-a348-37a7cc96c94b",
+    "parent": {
+      "_id": "0081f64f-5279-40ec-b88b-a5c1f384f61d",
+      "parent": {
+        "_id": "1bcb7748-a0fa-4372-80d6-133d7d7f9e4e"
+      }
+    }
+  },
+  "type": "contact",
+  "is_name_generated": "false",
+  "name": "Test Area",
+  "external_id": "12356",
+  "link_facility_code": "12345",
+  "link_facility_name": "This is a test link",
+  "chu_code": "800000",
+  "chu_name": "Test unit name",
+  "contact": {
+    "_id": "04af0140-e3ca-45dc-91ec-7b56469a6d70"
+  },
+  "geolocation": "",
+  "meta": {
+    "created_by": "medic",
+    "created_by_person_uuid": "",
+    "created_by_place_uuid": ""
+  },
+  "contact_type": "d_community_health_volunteer_area",
+  "reported_date": 1711525041037,
+  "form_version": {
+    "time": 1711522120219,
+    "sha256": "184236e479f6fac44e220e7278113411fcecd976608b4a1aa28890448e3f7686"
+  }
+}

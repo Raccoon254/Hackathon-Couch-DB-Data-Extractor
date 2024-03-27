@@ -1,0 +1,39 @@
+{
+  "_id": "form:approve_mute_person",
+  "_rev": "2-eda6473ab28644837a6b75973c96b9c0",
+  "type": "form",
+  "internalId": "approve_mute_person",
+  "xmlVersion": {
+    "time": 1711522114397,
+    "sha256": "bab2a6819f76be72bc31a64b6007d8df4cd97a651366567366fdafbf32541893"
+  },
+  "title": "Approve Mute Person",
+  "context": {
+    "person": false,
+    "place": false
+  },
+  "icon": "icon-mute",
+  "_attachments": {
+    "xml": {
+      "content_type": "application/xml",
+      "revpos": 2,
+      "digest": "md5-gxPpt2WThSr9+MLf94lyXg==",
+      "length": 10378,
+      "stub": true
+    },
+    "form.html": {
+      "content_type": "text/html",
+      "revpos": 2,
+      "digest": "md5-QiUgrd8X7nSisq+xjWjcyg==",
+      "length": 9708,
+      "stub": true
+    },
+    "model.xml": {
+      "content_type": "text/xml",
+      "revpos": 2,
+      "digest": "md5-JWenFqLoDEY5/3vqt96xAQ==",
+      "length": 2420,
+      "stub": true
+    }
+  }
+}

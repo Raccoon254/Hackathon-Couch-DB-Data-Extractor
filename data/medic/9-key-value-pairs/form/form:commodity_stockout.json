@@ -1,0 +1,39 @@
+{
+  "_id": "form:commodity_stockout",
+  "_rev": "2-7907780a517f8c03cdd6a67048208dad",
+  "type": "form",
+  "internalId": "commodity_stockout",
+  "xmlVersion": {
+    "time": 1711522115936,
+    "sha256": "ff9cc8675d71f1a03b3ec0563e0f72ac95d7889e6f9b38211e4e04c2d7fd11ec"
+  },
+  "title": "Commodity Stockouts",
+  "context": {
+    "person": false,
+    "place": false
+  },
+  "icon": "icon-commodity",
+  "_attachments": {
+    "xml": {
+      "content_type": "application/xml",
+      "revpos": 2,
+      "digest": "md5-GMRtzQf6nRmbuclTDu8kqQ==",
+      "length": 47547,
+      "stub": true
+    },
+    "form.html": {
+      "content_type": "text/html",
+      "revpos": 2,
+      "digest": "md5-Q3Qt7esO6/nK7NP4wbU9Cw==",
+      "length": 40132,
+      "stub": true
+    },
+    "model.xml": {
+      "content_type": "text/xml",
+      "revpos": 2,
+      "digest": "md5-2EbUWGgYtLxlNueb8V54JQ==",
+      "length": 7871,
+      "stub": true
+    }
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "_id": "50081b60-31a1-44c3-b90d-f2ced16ae83f",
+  "_rev": "2-083c3e40813d40e537bd9977276138a0",
+  "parent": "",
+  "type": "contact",
+  "is_name_generated": "false",
+  "name": "Garrissa",
+  "external_id": "12347",
+  "contact": {
+    "_id": "18a0f36d-cf41-4bcb-be32-238f1a233518"
+  },
+  "geolocation": "",
+  "meta": {
+    "created_by": "medic",
+    "created_by_person_uuid": "",
+    "created_by_place_uuid": ""
+  },
+  "contact_type": "a_county",
+  "reported_date": 1711524317778,
+  "form_version": {
+    "time": 1711522119822,
+    "sha256": "cc2560b7e61ccac6f3acef47f224f7a07d6acdcba01d415e99c40cdcb9e786c9"
+  }
+}
