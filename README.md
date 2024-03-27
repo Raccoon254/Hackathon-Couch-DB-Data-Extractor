@@ -34,14 +34,18 @@ Modify the CouchDB connection details (URL, username, and password) in the scrip
 
 ## API Endpoints
 
-- Each database fetched from CouchDB will have a corresponding API endpoint in the format: `GET /api/<dbName>`
-- Example: `GET /api/my_database`
+GET /api/{database-name}: Retrieves data from the specified CouchDB database.
+Example: GET http://localhost:3000/api/medic
+
+POST /auth/login: Authenticates users.
+Example:  curl -X POST -H "Content-Type: application/json" -d '{"username":"yourusername","password":"yourpassword"}' http://localhost:3000/auth/login
+
 
   
   ##**Features**
-Fetches documents from all databases in a CouchDB instance.
-Stores documents locally as JSON files.
-Provides a RESTful API to access the stored documents.
+- Fetches documents from CouchDB databases and stores them as JSON files locally.
+- Provides API endpoints to access the stored data.
+- Supports user authentication via HTTP POST requests.
 
 ## Security Considerations
 
