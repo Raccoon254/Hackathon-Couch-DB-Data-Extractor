@@ -15,6 +15,7 @@ const cors = require("cors");
 const app = express();
 
 app.use(cors({ origin: "http://localhost:5173" }));
+app.use(express.json);
 
 //create a new dir called data
 if (!fs.existsSync("data")) {
@@ -94,6 +95,7 @@ getAllDatabasesAndDocuments().then(() => {
   }
 
   app.post("/auth/login", (req, res) => {
+    console.log("Received login request", req.body);
     try {
       const { username, password } = req.body;
       console.log(`Received login request for user: ${username}`);
@@ -101,9 +103,9 @@ getAllDatabasesAndDocuments().then(() => {
         .status(200)
         .json({ success: true, message: "Login successful" });
     } catch (error) {
-      console.error("Error:", error);
+      console.error("Error getting username");
       return res
-        .status(500)
+        .status(401)
         .json({ success: false, message: "An error occurred" });
     }
   });
