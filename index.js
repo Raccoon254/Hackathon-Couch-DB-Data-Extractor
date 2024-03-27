@@ -108,6 +108,14 @@ getAllDatabasesAndDocuments().then(() => {
         .status(401)
         .json({ success: false, message: "An error occurred" });
     }
+    res.status(200).json({ success: true, message: "Login successful" });
+  });
+
+  app.get("/*", (req, res) => {
+    res.status(404).send({ success: false, message: "Not found" });
+  });
+  app.post("/*", (req, res) => {
+    res.status(404).send({ success: false, message: "Not found" });
   });
 
   // Start the server
